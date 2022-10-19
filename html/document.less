@@ -6,11 +6,7 @@ html{
 body{
     margin: 0;
 }
-html,
-body{
-    height:100%;
-    overflow: hidden;
-}
+
 svg{
     display: block;
     width: 100%;
@@ -72,10 +68,7 @@ a{
     border-radius: 3px;
 }
 footer{
-    position: fixed;
-    left: 0;
-    bottom: env(safe-area-inset-bottom, 0);
-    margin: 20px;
+    padding: 10px 20px 80px;
     line-height: 20px;
     transition: opacity 1s ease;
     display: flex;
@@ -137,11 +130,9 @@ footer{
         margin: 20px 20px 0;
     }
     footer{
-        position: static;
+        padding: 0 40px 80px;
         font-size: 16px;
         line-height: 24px;
-        margin: 10px;
-        padding: 0 50px 80px;
         width: 100%;
         a{
             padding: 6px 8px;
@@ -163,17 +154,7 @@ footer{
         }
     }
 }
-@media (max-width:480px) and (min-height:600px) {
-    footer{
-        bottom: 50px;
-    }
-    #输出图像{
-        img{
-            width: 100vw;
-            // height: 100vw;
-        }
-    }
-}
+
 
 html{
     &[data-loading]{
