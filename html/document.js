@@ -83,15 +83,15 @@ addEvent(设置等级,'click',e=>{
 gelLevelsAndSet();
 计分();
 
-const 读文件成url = (blob,cb)=>{
-    const 读 = new FileReader();
-    读.onload = e => cb(e.target.result);
-    读.readAsDataURL(blob);
+const readFileToURL = (blob,cb)=>{
+    const reader = new FileReader();
+    reader.onload = e => cb(e.target.result);
+    reader.readAsDataURL(blob);
 };
 const 获取字体dataurl = (url,cb)=>{
-    fetch(url).then(r => r.blob()).then(blob => 读文件成url(blob,cb));
+    fetch(url).then(r => r.blob()).then(blob => readFileToURL(blob,cb));
 };
-const 获取字体样式 = (fontName,cb)=>{ return cb();
+const 获取字体样式 = (fontName,cb)=>{
     获取字体dataurl(`${fontName}.woff?v=a`,url => cb(`@font-face {
         font-family: ${fontName};
         src: url(${url});

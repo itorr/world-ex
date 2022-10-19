@@ -18,6 +18,7 @@ const replaceSVG = text=>{
     text = text.replace(/ version="1.1"/g,'')
     text = text.replace(/ xmlns:xlink="http:\/\/www\.w3\.org\/1999\/xlink"/g,'')
     text = text.replace(/<rect y="0" class=".+?" width="2050" height="1220"\/?>/g,'')
+    text = text.replace(/'Tensentype-JiaLiDaYuanJF'/g,'slice')
     
     text = text.replace(/<style type="text\/css">/,'<style></style><style>'+levelsStyleText)
     return text;
