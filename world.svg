@@ -59,7 +59,7 @@
 	<rect id="萨尔瓦多" x="1590" y="578" class="st1" width="20" height="20"/>
 	<rect id="伯利兹" x="1637" y="532" class="st1" width="44" height="34"/>
 	<rect id="洪都拉斯" x="1610" y="578" class="st1" width="47" height="34"/>
-	<rect id="孟加拉瓜" x="1631" y="597" class="st1" width="42" height="29"/>
+	<rect id="尼加拉瓜" x="1631" y="597" class="st1" width="42" height="29" style="fill:red;"/>
 	<rect id="哥斯达黎加" x="1650" y="617" class="st1" width="36" height="26"/>
 	<rect id="巴拿马" x="1676" y="632" class="st1" width="50" height="24"/>
 	<rect id="秘鲁" x="1640" y="727" class="st1" width="107" height="152"/>
@@ -201,12 +201,16 @@
 	<polygon id="塞浦路斯" class="st1" points="439,430 475,430 475,441 439,441 	"/>
 	<polygon id="卡塔尔" class="st1" points="590,504 618,504 618,515 590,515 	"/>
 	<polygon id="巴哈马" class="st1" points="1790,471 1818,471 1818,482 1790,482 	"/>
+	<polygon id="毛里求斯" class="st1" points="613.5,888.5 624.5,888.5 624.5,899.5 613.5,899.5 	"/>
+	<polygon id="摩纳哥" class="st1" points="320,358 331,358 331,369 320,369 	"/>
+	<polygon id="马尔代夫" class="st1" points="750.5,712.5 794.5,712.5 794.5,723.5 750.5,723.5 	"/>
+	<polygon id="塞班岛" class="st1" points="1212.5,619.1 1223.5,619.1 1223.5,630.1 1212.5,630.1 	"/>
 </g>
 <g id="标签">
 	<text transform="matrix(1 0 0 1 492 649)" class="st2 st3">吉布提</text>
 	<text transform="matrix(1 0 0 1 1653 629)" class="st2 st4">哥斯达</text>
 	<text transform="matrix(1 0 0 1 1653 639)" class="st2 st4">黎加</text>
-	<text transform="matrix(1 0 0 1 1634 610)" class="st2 st3">孟加拉</text>
+	<text transform="matrix(1 0 0 1 1634 610)" class="st2 st3">尼加拉</text>
 	<text transform="matrix(1 0 0 1 1634 622)" class="st2 st3">瓜</text>
 	<text transform="matrix(1 0 0 1 1616 593)" class="st2 st3">洪都拉</text>
 	<text transform="matrix(1 0 0 1 1616 605)" class="st2 st3">斯</text>
@@ -484,6 +488,8 @@
 	<text transform="matrix(1 0 0 1 331 336)" class="st2 st4">瑞士</text>
 	<text transform="matrix(1 0 0 1 364 434)" class="st2 st5">马耳他</text>
 	<text transform="matrix(1 0 0 1 592 512)" class="st2 st5">卡塔尔</text>
+	<text transform="matrix(1 0 0 1 615 897.031)" class="st2 st5">毛</text>
+	<text transform="matrix(1 0 0 1 321.5605 366.1039)" class="st2 st5">摩</text>
 	<text transform="matrix(1 0 0 1 441 438)" class="st2 st5">塞浦路斯</text>
 	<text transform="matrix(1 0 0 1 1792 479)" class="st2 st5">巴哈马</text>
 </g>
