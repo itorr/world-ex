@@ -81,7 +81,7 @@
 	<rect id="阿拉伯联合酋长国" x="590" y="519" class="st1" width="42" height="26"/>
 	<rect id="也门" x="524" y="583" class="st1" width="66" height="33"/>
 	<rect id="爱沙尼亚" x="464" y="192" class="st1" width="58" height="30"/>
-	<rect id="托拉威亚" x="455" y="222" class="st1" width="67" height="24"/>
+	<rect id="拉脱维亚" x="455" y="222" class="st1" width="67" height="24"/>
 	<rect id="白俄罗斯" x="455" y="246" class="st1" width="79" height="44"/>
 	<rect id="乌克兰" x="447" y="289" class="st1" width="114" height="54"/>
 	<rect id="罗马里亚" x="434" y="320" class="st1" width="55" height="45"/>
@@ -416,7 +416,7 @@
 	<text transform="matrix(1 0 0 1 243 248)" class="st2 st4">北</text>
 	<text transform="matrix(1 0 0 1 468 212)" class="st2 st3">爱沙尼亚</text>
 	<text transform="matrix(1 0 0 1 441 256)" class="st2 st3">立陶宛</text>
-	<text transform="matrix(1 0 0 1 461 238)" class="st2 st6">托拉威亚</text>
+	<text transform="matrix(1 0 0 1 461 238)" class="st2 st6">拉脱维亚</text>
 	<text transform="matrix(1 0 0 1 910 182)" class="st2 st6">俄罗斯</text>
 	<text transform="matrix(1 0 0 1 942 346)" class="st2 st6">外蒙古</text>
 	<text transform="matrix(1 0 0 1 939 459)" class="st2 st6">中国</text>
