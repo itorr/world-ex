@@ -106,13 +106,14 @@ const 获取字体样式 = (fontName,cb)=>{ return cb();
 });
 
 const width = 2050;
-const height = 1200;
+const height = 1220;
 const zoom = 2;
 
 const canvas = createElement('canvas');
 
 canvas.width = width * zoom;
-canvas.height = width * zoom;
+// canvas.height = width * zoom;
+canvas.height = height * zoom;
 
 const ctx = canvas.getContext('2d');
 
@@ -148,13 +149,13 @@ const saveImage = _=>{
         ctx.fillStyle = '#BAE4FF';
         ctx.fillRect(
             0,0,
-            width * zoom,width * zoom
+            width * zoom,height * zoom
         );
         ctx.drawImage(
             图,
             0,0,
             width,height,
-            0,(width - height) * zoom / 2,
+            0,0, // (width - height) * zoom / 2,
             width * zoom, height * zoom
         );
         // return 下载文件(canvas.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);

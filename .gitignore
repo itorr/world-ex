@@ -2,4 +2,5 @@
 html/index.html
 world-sketch.svg
 world-fixed.svg
-world-ex.sketch
+*.sketch
+*.woff
