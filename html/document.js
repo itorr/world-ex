@@ -17,7 +17,7 @@ const saveLevels = _=>{
     localStorage.setItem(localStorageLevelsKey,getLevels().join(''));
 };
 const gelLevelsAndSet = _=>{
-    const levelsString = localStorage.getItem(localStorageLevelsKey);
+    const levelsString = localStorage.getItem(localStorageLevelsKey) || '';
     // if(String(levelsString).length !== getLevelEls().length) return;
     const levels = levelsString.split('');
     getLevelEls().forEach((元素,i)=>{
@@ -109,11 +109,11 @@ const readFileToURL = (blob,cb)=>{
     reader.onload = e => cb(e.target.result);
     reader.readAsDataURL(blob);
 };
-const 获取字体dataurl = (url,cb)=>{
+const getFontDataURL = (url,cb)=>{
     fetch(url).then(r => r.blob()).then(blob => readFileToURL(blob,cb));
 };
 const 获取字体样式 = (fontName,cb)=>{
-    获取字体dataurl(`${fontName}.woff?v={version}`,url => cb(`@font-face {
+    getFontDataURL(`${fontName}.woff?v={version}`,url => cb(`@font-face {
         font-family: ${fontName};
         src: url(${url});
     };`));
