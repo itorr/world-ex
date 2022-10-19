@@ -36,6 +36,9 @@ https://lab.magiconch.com/world-ex/
 ## 提示
 请使用自带浏览器进行保存
 
+## 微博
+https://weibo.com/1197780522/Mb0m7qcm5
+
 ## GitHub
 https://github.com/itorr/world-ex
 
