@@ -11,14 +11,15 @@
 	.st4{font-size:10px;}
 	.st5{font-size:8px;}
 	.st6{font-size:14px;}
-	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#88AEFF;}
-	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#A8FFBE;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7E7E;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#FFB57E;}
 	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE57E;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#FFB57E;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7E7E;}
-	.st12{font-size:18px;}
-	.st13{font-size:30px;}
-	.st14{font-size:60px;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#A8FFBE;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#88AEFF;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#EDD1FF;}
+	.st13{font-size:18px;}
+	.st14{font-size:30px;}
+	.st15{font-size:60px;}
 </style>
 <rect y="0" class="st0" width="2050" height="1220"/>
 <g id="国家">
@@ -508,19 +509,21 @@
 	<text transform="matrix(1 0 0 1 751 721)" class="st2 st5">马尔代夫</text>
 </g>
 <g id="等级">
-	<rect x="1455" y="987" class="st1" width="120" height="194"/>
-	<rect x="1456" y="1116" class="st7" width="118" height="32"/>
-	<rect x="1456" y="1084" class="st8" width="118" height="32"/>
-	<rect x="1456" y="1052" class="st9" width="118" height="32"/>
-	<rect x="1456" y="1020" class="st10" width="118" height="32"/>
-	<rect x="1456" y="988" class="st11" width="118" height="32"/>
-	<text transform="matrix(1 0 0 1 1488 1010)" class="st2 st12">居住５</text>
-	<text transform="matrix(1 0 0 1 1488 1042)" class="st2 st12">短居４</text>
-	<text transform="matrix(1 0 0 1 1488 1074)" class="st2 st12">游玩３</text>
-	<text transform="matrix(1 0 0 1 1488 1106)" class="st2 st12">出差２</text>
-	<text transform="matrix(1 0 0 1 1488 1138)" class="st2 st12">路过１</text>
-	<text transform="matrix(1 0 0 1 1488 1170)" class="st2 st12">没去过</text>
+	<rect x="1455" y="955" class="st1" width="120" height="226"/>
+	<rect x="1456" y="956" class="st7" width="118" height="32"/>
+	<rect x="1456" y="988" class="st8" width="118" height="32"/>
+	<rect x="1456" y="1020" class="st9" width="118" height="32"/>
+	<rect x="1456" y="1052" class="st10" width="118" height="32"/>
+	<rect x="1456" y="1084" class="st11" width="118" height="32"/>
+	<rect x="1456" y="1116" class="st12" width="118" height="32"/>
+	<text transform="matrix(1 0 0 1 1488 978)" class="st2 st13">居住５</text>
+	<text transform="matrix(1 0 0 1 1488 1010)" class="st2 st13">短居４</text>
+	<text transform="matrix(1 0 0 1 1488 1042)" class="st2 st13">游玩３</text>
+	<text transform="matrix(1 0 0 1 1488 1074)" class="st2 st13">出差２</text>
+	<text transform="matrix(1 0 0 1 1488 1106)" class="st2 st13">路过１</text>
+	<text transform="matrix(1 0 0 1 1488 1138)" class="st2 st13">想要去</text>
+	<text transform="matrix(1 0 0 1 1488 1170)" class="st2 st13">没去过</text>
 </g>
-<text id="全球制霸" transform="matrix(1 0 0 1 31 1184)" class="st2 st13">全球制霸·神奇海螺试验场</text>
-<text id="分数" transform="matrix(1 0 0 1 31 1136)" class="st2 st14">分数</text>
+<text id="全球制霸" transform="matrix(1 0 0 1 31 1184)" class="st2 st14">全球制霸·神奇海螺试验场</text>
+<text id="分数" transform="matrix(1 0 0 1 31 1136)" class="st2 st15">分数</text>
 </svg>

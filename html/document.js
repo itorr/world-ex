@@ -11,17 +11,15 @@ const closeAll = _=>{
 };
 const data = {};
 const getLevelEls = _=>[...国家.children];
-const getLevels = _=>getLevelEls().map(el=>+el.getAttribute('level')||0);
+const getLevels = _=>getLevelEls().map(el=>el.getAttribute('level')||'0');
 const localStorageLevelsKey = 'world-ex-levels';
 const saveLevels = _=>{
     localStorage.setItem(localStorageLevelsKey,getLevels().join(''));
 };
 const gelLevelsAndSet = _=>{
-    const levelsString = localStorage.getItem(localStorageLevelsKey) || '';
-    // if(String(levelsString).length !== getLevelEls().length) return;
-    const levels = levelsString.split('');
+    const levels = localStorage.getItem(localStorageLevelsKey) || '';
     getLevelEls().forEach((元素,i)=>{
-        元素.setAttribute('level',levels[i]||0)
+        元素.setAttribute('level',levels[i]||'0')
     })
 };
 const svgEl = body.querySelector('svg');
@@ -87,7 +85,7 @@ addEvent(国家,'click', e=>{
 addEvent(document,'click',closeAll);
 const 计分 = _=>{
     const 分 = getLevels().reduce((all, a) => {
-        return +all + a;
+        return +all + (+a||0);
       }, 0);
     分数.innerHTML = `分数: ${分}`;
 }

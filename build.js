@@ -4,6 +4,7 @@ const levelsStyleText = `
 #国家>*[level="3"]{fill:#FFE57E;}
 #国家>*[level="2"]{fill:#A8FFBE;}
 #国家>*[level="1"]{fill:#88AEFF;}
+#国家>*[level="w"]{fill:#edd1ff;}
 `;
 
 const replaceSVG = text=>{
