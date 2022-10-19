@@ -134,8 +134,7 @@ const zoom = 2;
 const canvas = createElement('canvas');
 
 canvas.width = width * zoom;
-// canvas.height = width * zoom;
-canvas.height = height * zoom;
+canvas.height = width * zoom;
 
 const ctx = canvas.getContext('2d');
 
@@ -165,22 +164,19 @@ const saveImage = _=>{
 
     const document文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}px" height="${height}px">${图形.innerHTML}</svg>`;
     const dataurl = fromXMLCreateImageSrc(document文本);
-    // open(dataurl);
-    // return ;
     urlToImageEl(dataurl,图=>{
         ctx.fillStyle = '#BAE4FF';
         ctx.fillRect(
             0,0,
-            width * zoom,height * zoom
+            width * zoom,width * zoom
         );
         ctx.drawImage(
             图,
             0,0,
             width,height,
-            0,0, // (width - height) * zoom / 2,
+            0, (width - height) * zoom / 2,
             width * zoom, height * zoom
         );
-        // return 下载文件(canvas.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
         canvas.toBlob(元素data=>{
             const url = URL.createObjectURL(元素data);
             输出图像.querySelector('img').src = url;
