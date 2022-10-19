@@ -5,6 +5,8 @@ const generateFontURL = (name,text)=>{
     text = text.replace(/\s/g,'');
     text = Array.from(new Set(text)).sort().join('');
 
+    console.log(text);
+    
     if(!text) return requestAnimationFrame(onOver);
 
     const unicode = str2utf8(text).join();
@@ -64,7 +66,7 @@ const text = defaultText + getTextFromHTMLFile('html/index.html') + getTextFromH
 const fontURL = generateFontURL(`JiaLiDaYuanJF`,text);
 
 
-console.log(text);
+// console.log(text);
 // console.log(fontURL);
 
 const axios = require('axios');
