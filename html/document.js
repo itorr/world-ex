@@ -18,10 +18,10 @@ const saveLevels = _=>{
 };
 const gelLevelsAndSet = _=>{
     const levelsString = localStorage.getItem(localStorageLevelsKey);
-    if(String(levelsString).length !== getLevelEls().length) return;
+    // if(String(levelsString).length !== getLevelEls().length) return;
     const levels = levelsString.split('');
     getLevelEls().forEach((元素,i)=>{
-        元素.setAttribute('level',levels[i])
+        元素.setAttribute('level',levels[i]||0)
     })
 };
 const svgEl = body.querySelector('svg');
