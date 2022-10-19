@@ -47,7 +47,7 @@
 	<rect id="朝鲜" x="1099" y="381" class="st1" width="42" height="32"/>
 	<rect id="韩国" x="1117" y="413" class="st1" width="24" height="37"/>
 	<path id="日本" class="st1" d="M1208,303h77v42h-57v11h28v114h-57v42h-24v-58h33V303z M1139,512h8v9h-8V512z"/>
-	<rect id="夏威夷" x="1365" y="530" class="st1" width="53" height="42"/>
+	<rect id="美·夏威夷" x="1365" y="530" class="st1" width="53" height="42"/>
 	<path id="美国" class="st1" d="M1555,291h329v154h-329V291z M1410,95h145v133h-145V95z"/>
 	<rect id="墨西哥" x="1555" y="445" class="st1" width="170" height="108"/>
 	<rect id="多米尼加" x="1864" y="518" class="st1" width="36" height="28"/>
@@ -92,7 +92,7 @@
 	<rect id="荷兰" x="332" y="251" class="st1" width="30" height="28"/>
 	<rect id="英国" x="276" y="204" class="st1" width="48" height="92"/>
 	<rect id="爱尔兰" x="200" y="246" class="st1" width="49" height="40"/>
-	<rect id="北爱尔兰" x="238" y="235" class="st1" width="20" height="19"/>
+	<rect id="英·北爱尔兰" x="238" y="235" class="st1" width="20" height="19"/>
 	<rect id="马恩岛" x="257" y="260" class="st1" width="12" height="11"/>
 	<rect id="法罗群岛" x="280" y="162" class="st1" width="44" height="14"/>
 	<rect id="冰岛" x="205" y="114" class="st1" width="71" height="50"/>
