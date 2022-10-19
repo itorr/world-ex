@@ -197,9 +197,9 @@
 	<rect id="卢旺达" x="423" y="740" class="st1" width="34" height="14"/>
 	<rect id="布隆迪" x="423" y="754" class="st1" width="34" height="14"/>
 	<rect id="立陶宛" x="438" y="243" class="st1" width="42" height="19"/>
-	<polygon id="马耳他" class="st1" points="361.5,426.2 390.5,426 390.5,438 361.5,438 	"/>
-	<polygon id="塞浦路斯" class="st1" points="439,430.2 475,430 475,442 439,442 	"/>
-	<polygon id="卡塔尔" class="st1" points="590,504.2 617.8,504 617.8,515.4 590,515.4 	"/>
+	<polygon id="马耳他" class="st1" points="361,426 390,426 390,437 361,437 	"/>
+	<polygon id="塞浦路斯" class="st1" points="439,430 475,430 475,441 439,441 	"/>
+	<polygon id="卡塔尔" class="st1" points="590,504 618,504 618,515 590,515 	"/>
 </g>
 <g id="标签">
 	<text transform="matrix(1 0 0 1 492 649)" class="st2 st3">吉布提</text>
@@ -481,11 +481,9 @@
 	<text transform="matrix(1 0 0 1 1122 429)" class="st2 st6">韩</text>
 	<text transform="matrix(1 0 0 1 1122 443)" class="st2 st6">国</text>
 	<text transform="matrix(1 0 0 1 331 336)" class="st2 st4">瑞士</text>
-	<text transform="matrix(1 0 0 1 364 435)" class="st2 st5">马耳他</text>
-	<text transform="matrix(1 0 0 1 592.0002 512.0311)" class="st2 st5">卡塔尔</text>
-	<g>
-		<text transform="matrix(1 0 0 1 441 438.0311)" class="st2 st5">塞浦路斯</text>
-	</g>
+	<text transform="matrix(1 0 0 1 364 434)" class="st2 st5">马耳他</text>
+	<text transform="matrix(1 0 0 1 592 512)" class="st2 st5">卡塔尔</text>
+	<text transform="matrix(1 0 0 1 441 438)" class="st2 st5">塞浦路斯</text>
 </g>
 <g id="等级">
 	<rect x="1455" y="987" class="st1" width="120" height="194"/>
