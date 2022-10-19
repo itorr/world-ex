@@ -38,22 +38,24 @@ addEvent(国家,'click', e=>{
 
     setLevelTitleEl.innerHTML = id;
     setLevelStyle.display = 'block';
-    const setLevelsElRect = getRect(设置等级);
+    const setLevelElRect = getRect(设置等级);
+
+    console.log(setLevelElRect)
     
-    let 左 = Math.round(htmlEl.scrollLeft + targetRect.left + targetRect.width/2 - setLevelsElRect.width/2);
+    let 左 = Math.round(body.scrollLeft + targetRect.left + targetRect.width/2 - setLevelElRect.width/2);
     左 = Math.min(
         左,
-        body.offsetWidth - setLevelsElRect.width - minMargin
+        body.offsetWidth + body.scrollWidth - setLevelElRect.width - minMargin
     );
     左 = Math.max(
         左,
         minMargin
     );
 
-    let 上 = Math.round(htmlEl.scrollTop + targetRect.top + targetRect.height/2 - setLevelsElRect.height/2);
+    let 上 = Math.round(body.scrollTop + targetRect.top + targetRect.height/2 - setLevelElRect.height/2);
     上 = Math.min(
         上,
-        body.offsetHeight - setLevelsElRect.height - minMargin
+        body.offsetHeight + body.scrollHeight - setLevelElRect.height - minMargin
     );
     上 = Math.max(
         上,

@@ -41,17 +41,18 @@ a{
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 3px 6px 0 rgba(0,0,0,.1);
-    border: 4px solid #000;
+    border: 2px solid #000;
     text-align: center;
     h2{
         margin: 0;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 26px;
         cursor: default;
     }
     a{
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 18px;
         cursor: pointer;
     }
     h2,
@@ -67,21 +68,23 @@ a{
 }
 .按钮{
     background: #FFF;
-    box-shadow: 0 0 0 4px #111;
+    box-shadow: 0 0 0 2px #111;
     border-radius: 3px;
 }
 footer{
-    position: absolute;
-    right: 0;
+    position: fixed;
+    left: 0;
     bottom: env(safe-area-inset-bottom, 0);
     margin: 20px;
     line-height: 20px;
     transition: opacity 1s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     a{
-        float: left;
-        padding: 6px 12px;
+        padding: 6px 10px;
         &.按钮{
-            margin-left: 12px;
+            margin-right: 10px;
         }
     }
 }
@@ -102,9 +105,10 @@ footer{
     img{
         display: block;
         width: 520px;
-        height: 309px;
+        // height: 309px;
         margin: 0 auto;
         box-shadow: 0 5px 20px rgba(0,0,0,.1);
+        aspect-ratio: 2050 / 1220;
     }
     p{
         margin: 0;
@@ -119,11 +123,25 @@ footer{
 @media (max-width:800px) , (max-height:800px) {
     html{
         font-size: 14px;
+        height: 100%;
+    }
+    body{
+        position: relative;
+        height: 100%;
+        overflow: auto;
+    }
+    svg{
+        width: 1400px;
+        height: 873px;
+        padding: 40px 40px 0;
     }
     footer{
+        position: static;
         font-size: 16px;
         line-height: 24px;
         margin: 10px;
+        padding: 0 50px 80px;
+        width: 100%;
         a{
             padding: 6px 8px;
         }
@@ -151,7 +169,7 @@ footer{
     #输出图像{
         img{
             width: 100vw;
-            height: 100vw;
+            // height: 100vw;
         }
     }
 }
@@ -160,7 +178,7 @@ html{
     &[data-loading]{
         footer{
             pointer-events: none;
-            opacity: 0;
+            // opacity: 0;
         }
     }
     &[data-running]{

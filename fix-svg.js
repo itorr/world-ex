@@ -39,8 +39,8 @@ writeFileSync('world-fixed.svg',xml);
 
 let html = readFileSync('home.html','utf8');
 
-
-html = html.replace(/<!--svg-->/,xml);
-
+html = html.replace(/<!--svg-->/,xml.replace(/^<\?xml version="1.0" encoding="utf-8"\?>\n/,''));
+html = html.replace(/\n\s+viewBox=/,' viewBox=');
+html = html.replace(/\n\s{0,}\n/g,'\n');
 
 writeFileSync('html/index.html',html,'utf8');
