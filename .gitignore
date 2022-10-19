@@ -1,7 +1,7 @@
 20160412111806249.jpg
-html/index.html
 world-sketch.svg
 world-fixed.svg
 *.sketch
 *.woff
 world-cover.svg
+dist/*

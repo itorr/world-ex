@@ -1,9 +1,9 @@
 const htmlEl = document.documentElement;
 const { body, head } = document;
-const createElement = 名 => document.createElement(名);
+const createElement = n => document.createElement(n);
 const createImage = _=> new Image();
-const addEvent = (元素,事件,cb) => 元素[`on${事件}`] = cb;// 元素.addEventListener(事件,cb);
-const getRect = 元素 => 元素.getBoundingClientRect();
+const addEvent = (el,ev,cb) => el[`on${ev}`] = cb;// 元素.addEventListener(事件,cb);
+const getRect = el => el.getBoundingClientRect();
 const setLevelTitleEl = 设置等级.children[0];
 
 const closeAll = _=>{
@@ -43,10 +43,10 @@ addEvent(国家,'click', e=>{
     const svgElBBox = svgEl.getBBox();
     const svgRect = getRect(svgEl);
     
-    console.log(e)
-    console.log(target)
-    console.log(setLevelElRect)
-    console.log(svgRect)
+    // console.log(e)
+    // console.log(target)
+    // console.log(setLevelElRect)
+    // console.log(svgRect)
 
     let 左 = Math.round(body.scrollLeft + targetRect.left + targetRect.width/2 - setLevelElRect.width/2);
     // 左 = Math.min(
@@ -113,7 +113,7 @@ const 获取字体dataurl = (url,cb)=>{
     fetch(url).then(r => r.blob()).then(blob => readFileToURL(blob,cb));
 };
 const 获取字体样式 = (fontName,cb)=>{
-    获取字体dataurl(`${fontName}.woff?v=a`,url => cb(`@font-face {
+    获取字体dataurl(`${fontName}.woff?v={version}`,url => cb(`@font-face {
         font-family: ${fontName};
         src: url(${url});
     };`));
@@ -143,12 +143,12 @@ const fromXMLCreateImageSrc = document文本=>{
 };
 const isSNS = /weibo|qq/i.test(navigator.userAgent);
 // alert(navigator.userAgent)
-const 下载文件 = (链接,文件名,元素 = createElement('a'))=>{
+const 下载文件 = (link,filename,el = createElement('a'))=>{
     if(!isSNS){
-        元素.download = 文件名;
+        el.download = filename;
     }
-    元素.href = 链接;
-    元素.click();
+    el.href = link;
+    el.click();
 };
 const urlToImageEl = (url,cb)=>{
     const 图 = createImage();

@@ -23,9 +23,11 @@ const replaceSVG = text=>{
     text = text.replace(/<style type="text\/css">/,'<style></style><style>'+levelsStyleText)
     return text;
 };
+const ver = Math.floor(+new Date()/10000).toString(36);
+const replaceVersion = text => text.replace(/\{version\}/,ver);
 
 
-const { readFileSync, writeFileSync } = require('fs');
+const { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync } = require('fs');
 
 
 
@@ -35,9 +37,9 @@ xml = replaceSVG(xml);
 writeFileSync('world-fixed.svg',xml);
 
 
+if(!existsSync('dist')) mkdirSync('dist');
 
-
-let html = readFileSync('home.html','utf8');
+let html = readFileSync('html/index.html','utf8');
 
 html = html.replace(/<!--svg-->/,xml.replace(/^<\?xml version="1.0" encoding="utf-8"\?>\n/,''));
 html = html.replace(/\n\s+viewBox=/,' viewBox=');
@@ -47,7 +49,7 @@ html = html.replace(/\s+\/>/g,'/>');
 html = html.replace(/(\d+)\s+([\dvV]+)/g,'$1 $2');
 
 html = html.replace(/<style[\s\S]+<\/style>/ig,all=>all.replace(/\n\s{0,}/g,''));
-
+html = replaceVersion(html);
 const { minify } = require('html-minifier');
 
 const options = {
@@ -65,4 +67,26 @@ const options = {
 html = minify(html,options);
 
 
-writeFileSync('html/index.html',html,'utf8');
+writeFileSync('dist/index.html',html,'utf8');
+
+
+
+const UglifyJS = require('uglify-js');
+
+
+let jsText = readFileSync('html/document.js','utf8');
+
+jsText = replaceVersion(jsText);
+jsText = jsText.replace(/<!--.+?-->/g,'');
+jsText = jsText.replace(/^\s{0,}\/\/.+/g,'');
+
+jsText = UglifyJS.minify({
+    'document.js':jsText
+},{
+
+}).code;
+writeFileSync('dist/document.js',jsText,'utf8');
+
+
+copyFileSync('html/document.css','dist/document.css');
+copyFileSync('html/slice.woff','dist/slice.woff');
