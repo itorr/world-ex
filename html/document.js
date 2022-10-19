@@ -155,7 +155,7 @@ const urlToImageEl = (url,cb)=>{
     addEvent(图,'load',_=>setTimeout(_=>cb(图),500));
     图.src = url;
 };
-const 日志 = _=>(createImage()).src = `https://lab.magiconch.com/api/china-ex/log?levels=${getLevels().join('')}`;
+const 日志 = _=>(createImage()).src = `https://lab.magiconch.com/api/world-ex/log?levels=${getLevels().join('')}`;
 
 const outputImageStyle = 输出图像.style;
 const saveImage = _=>{
