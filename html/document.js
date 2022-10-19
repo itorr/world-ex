@@ -24,10 +24,9 @@ const gelLevelsAndSet = _=>{
         元素.setAttribute('level',levels[i])
     })
 };
-const 图形 = body.querySelector('svg');
+const svgEl = body.querySelector('svg');
 const setLevelStyle = 设置等级.style;
 const minMargin = 6;
-const svgEl = document.body.children[0];
 addEvent(国家,'click', e=>{
     e.stopPropagation();
 
@@ -120,7 +119,7 @@ const 获取字体样式 = (fontName,cb)=>{
     };`));
 };
 获取字体样式('slice',styleText=>{
-    图形.querySelector('style').innerHTML = styleText;
+    svgEl.querySelector('style').innerHTML = styleText;
     const 样式元素 = createElement('style');
     样式元素.innerHTML = styleText;
     head.appendChild(样式元素);
@@ -129,7 +128,7 @@ const 获取字体样式 = (fontName,cb)=>{
 
 const width = 2050;
 const height = 1220;
-const zoom = 2;
+const zoom = 1;
 
 const canvas = createElement('canvas');
 
@@ -162,9 +161,9 @@ const outputImageStyle = 输出图像.style;
 const saveImage = _=>{
     htmlEl.setAttribute('data-running','true');
 
-    const document文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}px" height="${height}px">${图形.innerHTML}</svg>`;
-    const dataurl = fromXMLCreateImageSrc(document文本);
-    urlToImageEl(dataurl,图=>{
+    const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}px" height="${height}px">${svgEl.innerHTML}</svg>`;
+    const dataURL = fromXMLCreateImageSrc(xmlText);
+    urlToImageEl(dataURL,图=>{
         ctx.fillStyle = '#BAE4FF';
         ctx.fillRect(
             0,0,
@@ -177,8 +176,8 @@ const saveImage = _=>{
             0, (width - height) * zoom / 2,
             width * zoom, height * zoom
         );
-        canvas.toBlob(元素data=>{
-            const url = URL.createObjectURL(元素data);
+        canvas.toBlob(blob=>{
+            const url = URL.createObjectURL(blob);
             输出图像.querySelector('img').src = url;
             outputImageStyle.display = '';
 
