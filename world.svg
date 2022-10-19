@@ -74,14 +74,14 @@
 	<rect id="越南" x="968" y="545" class="st1" width="33" height="111"/>
 	<rect id="老挝" x="917" y="545" class="st1" width="60" height="69"/>
 	<rect id="柬埔寨" x="917" y="614" class="st1" width="60" height="32"/>
-	<rect id="巴基斯坦" x="672" y="424" class="st1" width="74" height="100"/>
-	<polygon id="阿富汗" class="st1" points="671,408 728,408 728,473 671,473 	"/>
+	<rect id="巴基斯坦" x="672" y="400" class="st1" width="134" height="124"/>
+	<polygon id="阿富汗" class="st1" points="671,408 806,408 806,432 732,432 732,473 671,473 	"/>
 	<polygon id="伊朗" class="st1" points="571,403 605,403 605,417 672,417 672,496 571,496 	"/>
 	<rect id="沙特阿拉伯" x="494" y="461" class="st1" width="96" height="122"/>
 	<rect id="阿拉伯联合酋长国" x="590" y="519" class="st1" width="42" height="26"/>
 	<rect id="也门" x="524" y="583" class="st1" width="66" height="33"/>
 	<rect id="爱沙尼亚" x="464" y="192" class="st1" width="58" height="30"/>
-	<rect id="拉脱维亚" x="455" y="222" class="st1" width="67" height="24"/>
+	<rect id="托拉威亚" x="455" y="222" class="st1" width="67" height="24"/>
 	<rect id="白俄罗斯" x="455" y="246" class="st1" width="79" height="44"/>
 	<rect id="乌克兰" x="447" y="289" class="st1" width="114" height="54"/>
 	<rect id="罗马里亚" x="434" y="320" class="st1" width="55" height="45"/>
@@ -159,7 +159,7 @@
 	<rect id="缅甸" x="888" y="491" class="st1" width="29" height="119"/>
 	<polygon id="泰国" class="st1" points="914,558 914,670 939,670 939,653.9 933,653.9 933,619.8 952,619.8 952,592.7 933,592.7 
 		933,558 	"/>
-	<polygon id="印度" class="st1" points="746,400 908,400 908,533 838,533 838,631 746,631 	"/>
+	<polygon id="印度" class="st1" points="746,442 908,442 908,533 838,533 838,631 746,631 	"/>
 	<rect id="孟加拉国" x="846" y="506" class="st1" width="48" height="35"/>
 	<path id="中国" class="st1" d="M1098,518v27h-13v-27H1098z M1141,267v114h-85v35h21v129H917v-53h-48l-30-8h-33V315h100v53h114
 		V267H1141z M1019,554h21v22h-21V554z"/>
@@ -168,9 +168,9 @@
 	<polygon id="哈萨克" class="st1" points="605,267 829,267 829,365 698,365 698,325 671,325 671,377 631,377 631,325 605,325 	
 		"/>
 	<polygon id="乌兹别克斯坦" class="st1" points="649,348 671,348 671,354 698,354 698,348 746,348 746,408 649,408 	"/>
-	<rect id="吉尔吉斯斯坦" x="746" y="365" class="st1" width="63" height="35"/>
+	<rect id="吉尔吉斯斯坦" x="746" y="365" class="st1" width="69" height="35"/>
 	<rect id="土库曼" x="631" y="377" class="st1" width="70" height="40"/>
-	<rect id="塔吉克斯坦" x="719" y="396" class="st1" width="54" height="28"/>
+	<rect id="塔吉克斯坦" x="722" y="396" class="st1" width="84" height="28"/>
 	<rect id="阿塞拜疆" x="571" y="384" class="st1" width="38" height="19"/>
 	<rect id="格鲁吉亚" x="545" y="364" class="st1" width="40" height="20"/>
 	<rect id="亚美尼亚" x="551" y="378" class="st1" width="20" height="19"/>
@@ -402,7 +402,7 @@
 	<text transform="matrix(1 0 0 1 369 327)" class="st2 st4">奥地利</text>
 	<text transform="matrix(1 0 0 1 413 312)" class="st2 st5">斯洛伐克</text>
 	<text transform="matrix(1 0 0 1 358 333)" class="st2 st5">列</text>
-	<text transform="matrix(1 0 0 1 259 268)" class="st2 st5">马</text>
+	<text transform="matrix(1 0 0 1 259 268.0314)" class="st2 st5">马</text>
 	<text transform="matrix(1 0 0 1 391 340)" class="st2 st5">斯</text>
 	<text transform="matrix(1 0 0 1 392 351)" class="st2 st5">克罗</text>
 	<text transform="matrix(1 0 0 1 419 347)" class="st2 st5">塞</text>
@@ -416,7 +416,7 @@
 	<text transform="matrix(1 0 0 1 243 248)" class="st2 st4">北</text>
 	<text transform="matrix(1 0 0 1 468 212)" class="st2 st3">爱沙尼亚</text>
 	<text transform="matrix(1 0 0 1 441 256)" class="st2 st3">立陶宛</text>
-	<text transform="matrix(1 0 0 1 461 238)" class="st2 st6">拉脱维亚</text>
+	<text transform="matrix(1 0 0 1 461 238)" class="st2 st6">托拉威亚</text>
 	<text transform="matrix(1 0 0 1 910 182)" class="st2 st6">俄罗斯</text>
 	<text transform="matrix(1 0 0 1 942 346)" class="st2 st6">外蒙古</text>
 	<text transform="matrix(1 0 0 1 939 459)" class="st2 st6">中国</text>
@@ -429,12 +429,12 @@
 	<text transform="matrix(1 0 0 1 933 728)" class="st2 st5">新加坡</text>
 	<text transform="matrix(1 0 0 1 849 528)" class="st2 st6">孟加拉</text>
 	<text transform="matrix(1 0 0 1 681 502)" class="st2 st6">巴基斯坦</text>
-	<text transform="matrix(1 0 0 1 679 447)" class="st2 st6">阿富汗</text>
+	<text transform="matrix(1 0 0 1 681 447)" class="st2 st6">阿富汗</text>
 	<text transform="matrix(1 0 0 1 644 402)" class="st2 st6">土库曼</text>
-	<text transform="matrix(1 0 0 1 725 414)" class="st2 st6">塔吉克</text>
+	<text transform="matrix(1 0 0 1 743 414)" class="st2 st6">塔吉克</text>
 	<text transform="matrix(1 0 0 1 681 369)" class="st2 st6">乌兹别克</text>
 	<text transform="matrix(1 0 0 1 712 314)" class="st2 st6">哈萨克</text>
-	<text transform="matrix(1 0 0 1 749 387)" class="st2 st6">吉尔吉斯</text>
+	<text transform="matrix(1 0 0 1 752 387)" class="st2 st6">吉尔吉斯</text>
 	<text transform="matrix(1 0 0 1 1106 401)" class="st2 st6">朝鲜</text>
 	<text transform="matrix(1 0 0 1 1218 410)" class="st2 st6">日本</text>
 	<text transform="matrix(1 0 0 1 1062 633)" class="st2 st6">菲律宾</text>
@@ -482,8 +482,10 @@
 	<text transform="matrix(1 0 0 1 1122 443)" class="st2 st6">国</text>
 	<text transform="matrix(1 0 0 1 331 336)" class="st2 st4">瑞士</text>
 	<text transform="matrix(1 0 0 1 364 435)" class="st2 st5">马耳他</text>
-	<text transform="matrix(1 0 0 1 592 512)" class="st2 st5">卡塔尔</text>
-	<text transform="matrix(1 0 0 1 441 438)" class="st2 st5">塞浦路斯</text>
+	<text transform="matrix(1 0 0 1 592.0002 512.0311)" class="st2 st5">卡塔尔</text>
+	<g>
+		<text transform="matrix(1 0 0 1 441 438.0311)" class="st2 st5">塞浦路斯</text>
+	</g>
 </g>
 <g id="等级">
 	<rect x="1455" y="987" class="st1" width="120" height="194"/>
