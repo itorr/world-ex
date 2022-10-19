@@ -59,11 +59,11 @@ const getTextFromHTMLFile = (filename)=>{
 };
 
 const defaultText = `1234567890:`;
-const text = defaultText + getTextFromHTMLFile('html/index.html');
+const text = defaultText + getTextFromHTMLFile('html/index.html') + getTextFromHTMLFile('world.svg');
 const fontURL = generateFontURL(`JiaLiDaYuanJF`,text);
 
 
-// console.log(text);
+console.log(text);
 // console.log(fontURL);
 
 const axios = require('axios');

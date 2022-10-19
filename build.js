@@ -24,7 +24,7 @@ const replaceSVG = text=>{
     return text;
 };
 const ver = Math.floor(+new Date()/10000).toString(36);
-const replaceVersion = text => text.replace(/\{version\}/,ver);
+const replaceVersion = text => text.replace(/\{version\}/g,ver);
 
 
 const { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync } = require('fs');
