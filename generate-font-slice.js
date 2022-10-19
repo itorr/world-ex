@@ -67,8 +67,8 @@ const text = defaultText + getTextFromHTMLFile('html/index.html');
 const fontURL = generateFontURL(`JiaLiDaYuanJF`,text);
 
 
-console.log(text);
-console.log(fontURL);
+// console.log(text);
+// console.log(fontURL);
 
 const axios = require('axios');
 
@@ -77,7 +77,7 @@ const downFontFile = async _=>{
     let r = await axios.get(fontURL,{
         responseType: 'arraybuffer'
     });
-    console.log(r.data);
+    // console.log(r.data);
     writeFileSync('html/slice.woff',r.data,'binary');
 };
 
