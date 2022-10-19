@@ -1,0 +1,31 @@
+{
+  "name": "world-ex",
+  "version": "0.0.2",
+  "description": "全球制霸生成器",
+  "main": "html/index.html",
+  "scripts": {
+    "generate-font": "node generate-font-slice.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itorr/world-ex.git"
+  },
+  "keywords": [
+    "world"
+  ],
+  "author": "itorr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itorr/world-ex/issues"
+  },
+  "files": [
+    "html/index.html",
+    "html/document.css",
+    "html/document.js",
+    "html/slice.woff"
+  ],
+  "homepage": "https://github.com/itorr/world-ex#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
