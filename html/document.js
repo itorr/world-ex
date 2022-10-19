@@ -24,9 +24,10 @@ const gelLevelsAndSet = _=>{
         元素.setAttribute('level',levels[i])
     })
 };
-const 图形 = body.children[0];
+const 图形 = body.querySelector('svg');
 const setLevelStyle = 设置等级.style;
 const minMargin = 6;
+const svgEl = document.body.children[0];
 addEvent(国家,'click', e=>{
     e.stopPropagation();
 
@@ -39,28 +40,47 @@ addEvent(国家,'click', e=>{
     setLevelTitleEl.innerHTML = id;
     setLevelStyle.display = 'block';
     const setLevelElRect = getRect(设置等级);
-
-    console.log(setLevelElRect)
+    const targetBBox = target.getBBox();
+    const svgElBBox = svgEl.getBBox();
+    const svgRect = getRect(svgEl);
     
+    console.log(e)
+    console.log(target)
+    console.log(setLevelElRect)
+    console.log(svgRect)
+
     let 左 = Math.round(body.scrollLeft + targetRect.left + targetRect.width/2 - setLevelElRect.width/2);
-    左 = Math.min(
-        左,
-        body.offsetWidth + body.scrollWidth - setLevelElRect.width - minMargin
-    );
-    左 = Math.max(
-        左,
-        minMargin
-    );
+    // 左 = Math.min(
+    //     左,
+    //     body.offsetWidth + body.scrollWidth - setLevelElRect.width - minMargin
+    // );
+    // 左 = Math.max(
+    //     左,
+    //     minMargin
+    // );
 
     let 上 = Math.round(body.scrollTop + targetRect.top + targetRect.height/2 - setLevelElRect.height/2);
-    上 = Math.min(
-        上,
-        body.offsetHeight + body.scrollHeight - setLevelElRect.height - minMargin
-    );
-    上 = Math.max(
-        上,
-        minMargin
-    );
+    // 上 = Math.min(
+    //     上,
+    //     body.offsetHeight + body.scrollHeight - setLevelElRect.height - minMargin
+    // );
+    // 上 = Math.max(
+    //     上,
+    //     minMargin
+    // );
+    上 = body.scrollTop;
+
+    const scalc = svgRect.width / 2050;
+
+    // console.log(scalc)
+
+    左 = targetBBox.x * scalc + svgElBBox.x;
+    上 = targetBBox.y * scalc + svgElBBox.y;
+    // console.log(svgEl,targetBBox,svgElBBox)
+
+    左 = e.pageX + - setLevelElRect.width/2 + body.scrollLeft;
+    上 = e.pageY + - setLevelElRect.height/2 + body.scrollTop + 4;
+    
 
     setLevelStyle.left = 左 + 'px';
     setLevelStyle.top = 上 + 'px';
