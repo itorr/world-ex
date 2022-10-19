@@ -200,6 +200,7 @@
 	<polygon id="马耳他" class="st1" points="361,426 390,426 390,437 361,437 	"/>
 	<polygon id="塞浦路斯" class="st1" points="439,430 475,430 475,441 439,441 	"/>
 	<polygon id="卡塔尔" class="st1" points="590,504 618,504 618,515 590,515 	"/>
+	<polygon id="巴哈马" class="st1" points="1790,471 1818,471 1818,482 1790,482 	"/>
 </g>
 <g id="标签">
 	<text transform="matrix(1 0 0 1 492 649)" class="st2 st3">吉布提</text>
@@ -484,6 +485,7 @@
 	<text transform="matrix(1 0 0 1 364 434)" class="st2 st5">马耳他</text>
 	<text transform="matrix(1 0 0 1 592 512)" class="st2 st5">卡塔尔</text>
 	<text transform="matrix(1 0 0 1 441 438)" class="st2 st5">塞浦路斯</text>
+	<text transform="matrix(1 0 0 1 1792 479)" class="st2 st5">巴哈马</text>
 </g>
 <g id="等级">
 	<rect x="1455" y="987" class="st1" width="120" height="194"/>
