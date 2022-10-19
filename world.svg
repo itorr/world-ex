@@ -186,7 +186,7 @@
 	<rect id="以色列" x="480" y="448" class="st1" width="14" height="34"/>
 	<rect id="斯洛文尼亚" x="388" y="332" class="st1" width="15" height="11"/>
 	<rect id="布基纳法索" x="217" y="605" class="st1" width="44" height="31"/>
-	<polygon id="纳米比亚" class="st1" points="330,858 418,858 412,864 388,864 388,876 376,876 376,958 330,958 	"/>
+	<polygon id="纳米比亚" class="st1" points="330,858 415,858 415,864 385,864 385,876 376,876 376,958 330,958 	"/>
 	<rect id="赞比亚" x="393" y="804" class="st1" width="57" height="54"/>
 	<rect id="马拉维" x="447" y="825" class="st1" width="15" height="15"/>
 	<rect id="斯威士兰" x="455" y="924" class="st1" width="14" height="14"/>
