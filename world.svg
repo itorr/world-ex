@@ -436,7 +436,7 @@
 	<text transform="matrix(1 0 0 1 461 238)" class="st4 st8">拉脱维亚</text>
 	<text transform="matrix(1 0 0 1 910 182)" class="st4 st8">俄罗斯</text>
 	<text transform="matrix(1 0 0 1 950 346)" class="st4 st8">蒙古</text>
-	<text transform="matrix(1 0 0 1 939 459)" class="st4 st8">中国</text>
+	<text transform="matrix(1 0 0 1 963 436)" class="st4 st8">中国</text>
 	<text transform="matrix(1 0 0 1 780 568)" class="st4 st8">印度</text>
 	<text transform="matrix(1 0 0 1 827 493)" class="st4 st8">尼泊尔</text>
 	<text transform="matrix(1 0 0 1 815 657)" class="st4 st6">斯</text>
@@ -523,11 +523,11 @@
 	<rect x="1358.8" y="1039" class="st12" width="188" height="32"/>
 	<rect x="1358.8" y="1071" class="st13" width="188" height="32"/>
 	<rect x="1358.8" y="1103" class="st14" width="188" height="32"/>
-	<text transform="matrix(1 0 0 1 1390 965)" class="st4 st15">居住５·年以上</text>
-	<text transform="matrix(1 0 0 1 1390 997)" class="st4 st15">短居４·月以上</text>
-	<text transform="matrix(1 0 0 1 1390 1029)" class="st4 st15">游玩３·旅行过</text>
-	<text transform="matrix(1 0 0 1 1390 1061)" class="st4 st15">出差２·没玩上</text>
-	<text transform="matrix(1 0 0 1 1390 1093)" class="st4 st15">路过１·没接地</text>
+	<text transform="matrix(1 0 0 1 1387 965)" class="st4 st15">５居住·年以上</text>
+	<text transform="matrix(1 0 0 1 1387 997)" class="st4 st15">４短居·月以上</text>
+	<text transform="matrix(1 0 0 1 1387 1029)" class="st4 st15">３游玩·旅行过</text>
+	<text transform="matrix(1 0 0 1 1387 1061)" class="st4 st15">２出差·没玩上</text>
+	<text transform="matrix(1 0 0 1 1387 1093)" class="st4 st15">１路过·没接地</text>
 	<text transform="matrix(1 0 0 1 1425 1125)" class="st4 st15">想要去</text>
 	<text transform="matrix(1 0 0 1 1425 1157)" class="st4 st15">没去过</text>
 </g>
