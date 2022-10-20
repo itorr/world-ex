@@ -90,12 +90,17 @@ let jsText = readFileSync('html/document.js','utf8');
 jsText = replaceVersion(jsText);
 jsText = jsText.replace(/<!--.+?-->/g,'');
 jsText = jsText.replace(/^\s{0,}\/\/.+/g,'');
-
-jsText = UglifyJS.minify({
+jsText = `(_=>{${jsText}})()`;
+const minified = UglifyJS.minify({
     'document.js':jsText
 },{
-
-}).code;
+    // drop_console: true,
+    // pass: 3
+})
+if(!minified.code){
+    throw minified;
+}
+jsText = minified.code;
 writeFileSync('dist/document.js',jsText,'utf8');
 
 

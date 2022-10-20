@@ -1,10 +1,11 @@
-const htmlEl = document.documentElement;
-const { body, head } = document;
-const createElement = n => document.createElement(n);
+const doc = document;
+const htmlEl = doc.documentElement;
+const { body, head } = doc;
+const createElement = n => doc.createElement(n);
 const createImage = _=> new Image();
 const addEvent = (el,ev,cb) => el[`on${ev}`] = cb;// 元素.addEventListener(事件,cb);
 const getRect = el => el.getBoundingClientRect();
-const $ = (s,el=document) => el.querySelector(s);
+const $ = (s,el=doc) => el.querySelector(s);
 const setlevelEl = $('.set-level');
 const setLevelTitleEl = setlevelEl.children[0];
 const countryBoxEl = $('#countrys');
@@ -84,7 +85,7 @@ addEvent(countryBoxEl,'click', e=>{
     setLevelStyle.left = left + 'px';
     setLevelStyle.top = top + 'px';
 });
-addEvent(document,'click',closeAll);
+addEvent(doc,'click',closeAll);
 const scoreEl = $('#score');
 const stat = _=>{
     const score = getLevels().reduce((all, a) => {
@@ -114,10 +115,7 @@ const getFontDataURL = (url,cb)=>{
     fetch(url).then(r => r.blob()).then(blob => readFileToURL(blob,cb));
 };
 const getFontStyle = (fontName,cb)=>{
-    getFontDataURL(`${fontName}.woff?v={version}`,url => cb(`@font-face {
-        font-family: ${fontName};
-        src: url(${url});
-    };`));
+    getFontDataURL(`${fontName}.woff?v={version}`,url => cb(`@font-face{font-family:${fontName};src:url(${url})}`));
 };
 getFontStyle('slice',styleText=>{
     svgEl.querySelector('style').innerHTML = styleText;
@@ -138,8 +136,8 @@ canvas.height = width * zoom;
 
 const ctx = canvas.getContext('2d');
 
-const fromXMLCreateImageSrc = document文本=>{
-    const blob = new Blob([document文本], {type: 'image/svg+xml'});
+const fromXMLCreateImageSrc = text=>{
+    const blob = new Blob([text], {type: 'image/svg+xml'});
     return URL.createObjectURL(blob);
 };
 const isSNS = /weibo|qq/i.test(navigator.userAgent);
