@@ -1,10 +1,10 @@
 const levelsStyleText = `
-#国家>*[level="5"]{fill:#FF7E7E;}
-#国家>*[level="4"]{fill:#FFB57E;}
-#国家>*[level="3"]{fill:#FFE57E;}
-#国家>*[level="2"]{fill:#A8FFBE;}
-#国家>*[level="1"]{fill:#88AEFF;}
-#国家>*[level="w"]{fill:#edd1ff;}
+#countrys>*[level="5"]{fill:#FF7E7E;}
+#countrys>*[level="4"]{fill:#FFB57E;}
+#countrys>*[level="3"]{fill:#FFE57E;}
+#countrys>*[level="2"]{fill:#A8FFBE;}
+#countrys>*[level="1"]{fill:#88AEFF;}
+#countrys>*[level="w"]{fill:#edd1ff;}
 `;
 
 const replaceSVG = text=>{
