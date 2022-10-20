@@ -67,7 +67,7 @@ addEvent(国家,'click', e=>{
     // );
     上 = body.scrollTop;
 
-    const scalc = svgRect.width / 2050;
+    const scalc = svgRect.width / 2000;
 
     // console.log(scalc)
 
@@ -124,8 +124,8 @@ const 获取字体样式 = (fontName,cb)=>{
     setTimeout(_=>htmlEl.removeAttribute('data-loading'),2e3);
 });
 
-const width = 2050;
-const height = 1220;
+const width = 2000;
+const height = 1210;
 const zoom = 1;
 
 const canvas = createElement('canvas');

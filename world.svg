@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="2050px" height="1220px" viewBox="0 0 2050 1220" style="enable-background:new 0 0 2050 1220;" xml:space="preserve">
+	 width="2000px" height="1210px" viewBox="0 0 2000 1210" style="enable-background:new 0 0 2000 1210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#BAE4FF;stroke:#000000;stroke-miterlimit:10;}
 	
@@ -24,7 +24,7 @@
 	.st16{font-size:30px;}
 	.st17{font-size:60px;}
 </style>
-<rect y="0" class="st0" width="2050" height="1220"/>
+<rect y="0" class="st0" width="2000" height="1210"/>
 <g id="国家">
 	<polygon id="俄罗斯" class="st1" points="516,41 1335,41 1335,204 1280,204 1280,260 1224,260 1224,181 1169,181 1167,315 
 		1146,315 1146,381 1117,381 1117,315 601,315 601,384 518,385 	"/>
@@ -51,28 +51,28 @@
 	<rect id="朝鲜" x="1099" y="381" class="st1" width="42" height="32"/>
 	<rect id="韩国" x="1117" y="413" class="st1" width="24" height="37"/>
 	<path id="日本" class="st1" d="M1208,303h77v42h-57v11h24v113h-53v43h-24v-58h33V303z M1139,512h8v9h-8V512z"/>
-	<rect id="美·夏威夷" x="1365" y="530" class="st1" width="53" height="42"/>
-	<path id="美国" class="st1" d="M1555,291h329v154h-329V291z M1410,95h145v133h-145V95z"/>
-	<rect id="墨西哥" x="1555" y="445" class="st1" width="170" height="108"/>
-	<rect id="多米尼加" x="1864" y="518" class="st2" width="36" height="28"/>
-	<rect id="波多黎各" x="1911" y="538" class="st2" width="55" height="22"/>
-	<polygon id="海地" class="st2" points="1841,518 1864,518 1864,546 1841,546 	"/>
-	<rect id="古巴" x="1754" y="494" class="st1" width="81" height="34"/>
-	<rect id="牙买加" x="1790" y="538" class="st2" width="42" height="18"/>
-	<rect id="危地马拉" x="1582" y="542" class="st1" width="67" height="44"/>
-	<rect id="萨尔瓦多" x="1590" y="578" class="st2" width="20" height="19"/>
-	<rect id="伯利兹" x="1637" y="532" class="st1" width="44" height="34"/>
-	<rect id="洪都拉斯" x="1610" y="578" class="st2" width="47" height="34"/>
-	<rect id="尼加拉瓜" x="1631" y="597" class="st2" width="42" height="29"/>
-	<rect id="哥斯达黎加" x="1650" y="617" class="st2" width="36" height="26"/>
-	<rect id="巴拿马" x="1676" y="632" class="st2" width="50" height="24"/>
-	<rect id="秘鲁" x="1640" y="727" class="st1" width="107" height="152"/>
-	<rect id="厄瓜多尔" x="1683" y="687" class="st1" width="44" height="53"/>
-	<rect id="智利" x="1697" y="879" class="st1" width="45" height="302"/>
+	<rect id="美·夏威夷" x="1364" y="530" class="st1" width="53" height="42"/>
+	<path id="美国" class="st1" d="M1504,278h329v154h-329V278z M1379,82h105v133h-105V82z"/>
+	<rect id="墨西哥" x="1514" y="432" class="st1" width="170" height="108"/>
+	<rect id="多米尼加" x="1813" y="505" class="st2" width="36" height="28"/>
+	<rect id="波多黎各" x="1860" y="525" class="st2" width="55" height="22"/>
+	<polygon id="海地" class="st2" points="1790,505 1813,505 1813,533 1790,533 	"/>
+	<rect id="古巴" x="1703" y="481" class="st1" width="81" height="34"/>
+	<rect id="牙买加" x="1739" y="525" class="st2" width="42" height="18"/>
+	<rect id="危地马拉" x="1531" y="529" class="st1" width="67" height="44"/>
+	<rect id="萨尔瓦多" x="1539" y="565" class="st2" width="20" height="19"/>
+	<rect id="伯利兹" x="1586" y="519" class="st1" width="44" height="34"/>
+	<rect id="洪都拉斯" x="1559" y="565" class="st2" width="47" height="34"/>
+	<rect id="尼加拉瓜" x="1580" y="584" class="st2" width="42" height="29"/>
+	<rect id="哥斯达黎加" x="1599" y="604" class="st2" width="36" height="26"/>
+	<rect id="巴拿马" x="1625" y="619" class="st2" width="50" height="24"/>
+	<rect id="秘鲁" x="1589" y="714" class="st1" width="107" height="152"/>
+	<rect id="厄瓜多尔" x="1632" y="674" class="st1" width="44" height="53"/>
+	<rect id="智利" x="1646" y="866" class="st1" width="45" height="302"/>
 	<rect id="格陵兰岛" x="42" y="41" class="st1" width="127" height="186"/>
-	<rect id="乌拉圭" x="1816" y="981" class="st1" width="42" height="57"/>
-	<polygon id="巴西" class="st1" points="1728,687 2006,687 2006,938 1881.6,938 1881.6,981 1728,981 	"/>
-	<rect id="圭亚那" x="1850" y="638" class="st1" width="34" height="75"/>
+	<rect id="乌拉圭" x="1765" y="968" class="st1" width="42" height="57"/>
+	<polygon id="巴西" class="st1" points="1677,674 1955,674 1955,925 1830.6,925 1830.6,968 1677,968 	"/>
+	<rect id="圭亚那" x="1799" y="625" class="st1" width="34" height="75"/>
 	<path id="印度尼西亚" class="st1" d="M895,675v51h24v52h121v-11h-8v-22h-71v-43h63v7h51v24h35v-17h33v75h-33v-47h-35v23h-30
 		v11h23v14H899v-50h-20v-67H895z"/>
 	<rect id="越南" x="968" y="545" class="st1" width="33" height="111"/>
@@ -101,11 +101,11 @@
 	<rect id="法罗群岛" x="280" y="162" class="st2" width="44" height="14"/>
 	<rect id="冰岛" x="205" y="114" class="st1" width="71" height="50"/>
 	<rect id="巴布亚新几内亚" x="1143" y="716" class="st1" width="91" height="75"/>
-	<path id="澳洲" class="st1" d="M1224,838v160h-50v11h19v37h-51v-37h26v-11h-149V838H1224z"/>
-	<rect id="新西兰" x="1264" y="976" class="st1" width="51" height="135"/>
+	<path id="澳洲" class="st1" d="M1194,838v160h-50v11h19v37h-51v-37h26v-11H989V838H1194z"/>
+	<rect id="新西兰" x="1234" y="976" class="st1" width="51" height="135"/>
 	<rect id="所罗门群岛" x="1272" y="757" class="st1" width="60" height="31"/>
-	<rect id="瓦努阿图" x="1271" y="839" class="st2" width="32" height="33"/>
-	<rect id="斐济" x="1355" y="848" class="st1" width="32" height="43"/>
+	<rect id="瓦努阿图" x="1241" y="839" class="st2" width="32" height="33"/>
+	<rect id="斐济" x="1325" y="848" class="st1" width="32" height="43"/>
 	<rect id="马达加斯加岛" x="538" y="826" class="st1" width="44" height="112"/>
 	<rect id="西撒哈拉" x="122" y="483" class="st1" width="46" height="77"/>
 	<rect id="西班牙" x="169" y="348" class="st1" width="79" height="74"/>
@@ -140,16 +140,16 @@
 	<rect id="博茨瓦纳" x="376" y="858" class="st1" width="42" height="60"/>
 	<rect id="南非" x="365" y="918" class="st1" width="98" height="89"/>
 	<rect id="匈牙利" x="398" y="316" class="st1" width="49" height="21"/>
-	<rect id="加拿大" x="1555" y="95" class="st1" width="390" height="197"/>
-	<rect id="南极" x="593" y="1020" class="st1" width="343" height="160"/>
-	<rect id="阿根廷" x="1722" y="851" class="st1" width="94" height="296"/>
-	<rect id="玻利维亚" x="1739" y="803" class="st1" width="81" height="78"/>
-	<rect id="巴拉圭" x="1795" y="851" class="st1" width="51" height="83"/>
-	<rect id="哥伦比亚" x="1722" y="617" class="st1" width="55" height="139"/>
-	<rect id="委内瑞拉" x="1777" y="617" class="st1" width="73" height="83"/>
-	<rect id="苏里南" x="1884" y="649" class="st1" width="32" height="53"/>
+	<rect id="加拿大" x="1484" y="82" class="st1" width="390" height="197"/>
+	<rect id="南极" x="565" y="1008" class="st1" width="343" height="160"/>
+	<rect id="阿根廷" x="1671" y="838" class="st1" width="94" height="296"/>
+	<rect id="玻利维亚" x="1688" y="790" class="st1" width="81" height="78"/>
+	<rect id="巴拉圭" x="1744" y="838" class="st1" width="51" height="83"/>
+	<rect id="哥伦比亚" x="1671" y="604" class="st1" width="55" height="139"/>
+	<rect id="委内瑞拉" x="1726" y="604" class="st1" width="73" height="83"/>
+	<rect id="苏里南" x="1833" y="636" class="st1" width="32" height="53"/>
 	<rect id="北马其顿" x="408" y="374" class="st1" width="24" height="19"/>
-	<rect id="法属圭亚那" x="1916" y="662" class="st1" width="29" height="28"/>
+	<rect id="法属圭亚那" x="1865" y="649" class="st1" width="29" height="28"/>
 	<polygon id="瑞典" class="st1" points="473,67 473,117 445,117 445,224 398,224 398,67 	"/>
 	<rect id="法国" x="237" y="302" class="st1" width="102" height="67"/>
 	<rect id="比利时" x="328" y="279" class="st1" width="40" height="25"/>
@@ -204,7 +204,7 @@
 	<polygon id="马耳他" class="st2" points="361,426 391,426 391,437 361,437 	"/>
 	<polygon id="塞浦路斯" class="st2" points="439,430 475,430 475,441 439,441 	"/>
 	<polygon id="卡塔尔" class="st2" points="590,517 618,517 618,528 590,528 	"/>
-	<polygon id="巴哈马" class="st2" points="1790,471 1818,471 1818,482 1790,482 	"/>
+	<polygon id="巴哈马" class="st2" points="1739,458 1767,458 1767,469 1739,469 	"/>
 	<polygon id="毛里求斯" class="st2" points="612,888 624,888 624,899 612,899 	"/>
 	<polygon id="摩纳哥" class="st2" points="319,358 331,358 331,369 319,369 	"/>
 	<polygon id="马尔代夫" class="st2" points="749,713 785,713 785,724 749,724 	"/>
@@ -215,36 +215,36 @@
 	<polygon id="巴林" class="st2" points="590,503 602,503 602,514 590,514 	"/>
 	<polygon id="安道尔" class="st2" points="233,359 245,359 245,370 233,370 	"/>
 	<polygon id="文莱" class="st2" points="993,664 1005,664 1005,675 993,675 	"/>
-	<polygon id="塞舌尔" class="st3" points="605,760 616,760 616,771 605,771 	"/>
-	<polygon id="巴勒斯坦" class="st3" points="483.5,452.5 494.5,452.5 494.5,462.5 483.5,462.5 	"/>
+	<polygon id="塞舌尔" class="st3" points="605,760 615,760 615,769 605,769 	"/>
+	<polygon id="巴勒斯坦" class="st3" points="484,453 494,453 494,462 484,462 	"/>
 </g>
 <g id="标签">
 	<text transform="matrix(1 0 0 1 492 649)" class="st4 st5">吉布提</text>
-	<text transform="matrix(1 0 0 1 1653 628)" class="st4 st6">哥斯达</text>
-	<text transform="matrix(1 0 0 1 1653 639)" class="st4 st6">黎加</text>
-	<text transform="matrix(1 0 0 1 1634 610)" class="st4 st5">尼加拉</text>
-	<text transform="matrix(1 0 0 1 1634 622)" class="st4 st5">瓜</text>
-	<text transform="matrix(1 0 0 1 1616 593)" class="st4 st5">洪都拉</text>
-	<text transform="matrix(1 0 0 1 1616 605)" class="st4 st5">斯</text>
-	<text transform="matrix(1 0 0 1 1592 586)" class="st4 st7">萨尔</text>
-	<text transform="matrix(1 0 0 1 1592 594)" class="st4 st7">瓦多</text>
-	<text transform="matrix(1 0 0 1 1587 564)" class="st4 st5">危地马拉</text>
-	<text transform="matrix(1 0 0 1 1641 554)" class="st4 st5">伯利兹</text>
+	<text transform="matrix(1 0 0 1 1602 615)" class="st4 st6">哥斯达</text>
+	<text transform="matrix(1 0 0 1 1602 626)" class="st4 st6">黎加</text>
+	<text transform="matrix(1 0 0 1 1583 597)" class="st4 st5">尼加拉</text>
+	<text transform="matrix(1 0 0 1 1583 609)" class="st4 st5">瓜</text>
+	<text transform="matrix(1 0 0 1 1565 580)" class="st4 st5">洪都拉</text>
+	<text transform="matrix(1 0 0 1 1565 592)" class="st4 st5">斯</text>
+	<text transform="matrix(1 0 0 1 1541 573)" class="st4 st7">萨尔</text>
+	<text transform="matrix(1 0 0 1 1541 581)" class="st4 st7">瓦多</text>
+	<text transform="matrix(1 0 0 1 1536 551)" class="st4 st5">危地马拉</text>
+	<text transform="matrix(1 0 0 1 1590 541)" class="st4 st5">伯利兹</text>
 	<text transform="matrix(1 0 0 1 1370 556)" class="st4 st8">夏威夷</text>
-	<text transform="matrix(1 0 0 1 1618 501)" class="st4 st8">墨西哥</text>
-	<text transform="matrix(1 0 0 1 1742 194)" class="st4 st8">加拿大</text>
+	<text transform="matrix(1 0 0 1 1579 488)" class="st4 st8">墨西哥</text>
+	<text transform="matrix(1 0 0 1 1656 181)" class="st4 st8">加拿大</text>
 	<text transform="matrix(1 0 0 1 78 138)" class="st4 st8">格陵兰岛</text>
-	<text transform="matrix(1 0 0 1 1727 374)" class="st4 st8">美国</text>
-	<text transform="matrix(1 0 0 1 1780 516)" class="st4 st8">古巴</text>
-	<text transform="matrix(1 0 0 1 1793 551)" class="st4 st5">牙买加</text>
-	<text transform="matrix(1 0 0 1 1847 530)" class="st4 st5">海</text>
-	<text transform="matrix(1 0 0 1 1847 542)" class="st4 st5">地</text>
-	<text transform="matrix(1 0 0 1 1870 530)" class="st4 st5">多米</text>
-	<text transform="matrix(1 0 0 1 1870 542)" class="st4 st5">尼加</text>
-	<text transform="matrix(1 0 0 1 1915 553)" class="st4 st5">波多黎各</text>
-	<text transform="matrix(1 0 0 1 1893 666)" class="st4 st8">苏</text>
-	<text transform="matrix(1 0 0 1 1893 680)" class="st4 st8">里</text>
-	<text transform="matrix(1 0 0 1 1893 694)" class="st4 st8">南</text>
+	<text transform="matrix(1 0 0 1 1651 360)" class="st4 st8">美国</text>
+	<text transform="matrix(1 0 0 1 1729 503)" class="st4 st8">古巴</text>
+	<text transform="matrix(1 0 0 1 1742 538)" class="st4 st5">牙买加</text>
+	<text transform="matrix(1 0 0 1 1796 517)" class="st4 st5">海</text>
+	<text transform="matrix(1 0 0 1 1796 529)" class="st4 st5">地</text>
+	<text transform="matrix(1 0 0 1 1819 517)" class="st4 st5">多米</text>
+	<text transform="matrix(1 0 0 1 1819 529)" class="st4 st5">尼加</text>
+	<text transform="matrix(1 0 0 1 1864 540)" class="st4 st5">波多黎各</text>
+	<text transform="matrix(1 0 0 1 1842 653)" class="st4 st8">苏</text>
+	<text transform="matrix(1 0 0 1 1842 667)" class="st4 st8">里</text>
+	<text transform="matrix(1 0 0 1 1842 681)" class="st4 st8">南</text>
 	<text transform="matrix(1 0 0 1 940 577)" class="st4 st8">老挝</text>
 	<text transform="matrix(1 0 0 1 879 495)" class="st4 st6">不丹</text>
 	<text transform="matrix(1 0 0 1 982 604)" class="st4 st8">越</text>
@@ -435,7 +435,7 @@
 	<text transform="matrix(1 0 0 1 441 256)" class="st4 st5">立陶宛</text>
 	<text transform="matrix(1 0 0 1 461 238)" class="st4 st8">拉脱维亚</text>
 	<text transform="matrix(1 0 0 1 910 182)" class="st4 st8">俄罗斯</text>
-	<text transform="matrix(1 0 0 1 942 346)" class="st4 st8">蒙古</text>
+	<text transform="matrix(1 0 0 1 950 346)" class="st4 st8">蒙古</text>
 	<text transform="matrix(1 0 0 1 939 459)" class="st4 st8">中国</text>
 	<text transform="matrix(1 0 0 1 780 568)" class="st4 st8">印度</text>
 	<text transform="matrix(1 0 0 1 827 493)" class="st4 st8">尼泊尔</text>
@@ -455,46 +455,46 @@
 	<text transform="matrix(1 0 0 1 1106 401)" class="st4 st8">朝鲜</text>
 	<text transform="matrix(1 0 0 1 1215 410)" class="st4 st8">日本</text>
 	<text transform="matrix(1 0 0 1 1062 633)" class="st4 st8">菲律宾</text>
-	<text transform="matrix(1 0 0 1 1109 924)" class="st4 st8">澳洲</text>
-	<text transform="matrix(1 0 0 1 751 1107)" class="st4 st8">南极</text>
+	<text transform="matrix(1 0 0 1 1079 924)" class="st4 st8">澳洲</text>
+	<text transform="matrix(1 0 0 1 723 1095)" class="st4 st8">南极</text>
 	<text transform="matrix(1 0 0 1 553 851)" class="st4 st8">马</text>
 	<text transform="matrix(1 0 0 1 553 865)" class="st4 st8">达</text>
 	<text transform="matrix(1 0 0 1 553 879)" class="st4 st8">加</text>
 	<text transform="matrix(1 0 0 1 553 893)" class="st4 st8">斯</text>
 	<text transform="matrix(1 0 0 1 553 907)" class="st4 st8">加</text>
 	<text transform="matrix(1 0 0 1 553 921)" class="st4 st8">岛</text>
-	<text transform="matrix(1 0 0 1 1282 1036)" class="st4 st8">新</text>
-	<text transform="matrix(1 0 0 1 1282 1050)" class="st4 st8">西</text>
-	<text transform="matrix(1 0 0 1 1282 1064)" class="st4 st8">兰</text>
-	<text transform="matrix(1 0 0 1 1364 867)" class="st4 st8">斐</text>
-	<text transform="matrix(1 0 0 1 1364 881)" class="st4 st8">济</text>
-	<text transform="matrix(1 0 0 1 1273 853)" class="st4 st8">瓦努</text>
-	<text transform="matrix(1 0 0 1 1273 867)" class="st4 st8">阿图</text>
+	<text transform="matrix(1 0 0 1 1252 1036)" class="st4 st8">新</text>
+	<text transform="matrix(1 0 0 1 1252 1050)" class="st4 st8">西</text>
+	<text transform="matrix(1 0 0 1 1252 1064)" class="st4 st8">兰</text>
+	<text transform="matrix(1 0 0 1 1334 867)" class="st4 st8">斐</text>
+	<text transform="matrix(1 0 0 1 1334 881)" class="st4 st8">济</text>
+	<text transform="matrix(1 0 0 1 1243 853)" class="st4 st8">瓦努</text>
+	<text transform="matrix(1 0 0 1 1243 867)" class="st4 st8">阿图</text>
 	<text transform="matrix(1 0 0 1 1282 777)" class="st4 st8">所罗门</text>
-	<text transform="matrix(1 0 0 1 1668 806)" class="st4 st8">秘鲁</text>
-	<text transform="matrix(1 0 0 1 1688 712)" class="st4 st8">厄瓜</text>
-	<text transform="matrix(1 0 0 1 1688 726)" class="st4 st8">多尔</text>
-	<text transform="matrix(1 0 0 1 1678 648)" class="st4 st8">巴拿马</text>
-	<text transform="matrix(1 0 0 1 1742 677)" class="st4 st8">哥</text>
-	<text transform="matrix(1 0 0 1 1742 691)" class="st4 st8">伦</text>
-	<text transform="matrix(1 0 0 1 1742 705)" class="st4 st8">比</text>
-	<text transform="matrix(1 0 0 1 1742 719)" class="st4 st8">亚</text>
-	<text transform="matrix(1 0 0 1 1785 666)" class="st4 st8">委内瑞拉</text>
-	<text transform="matrix(1 0 0 1 1859 666)" class="st4 st8">圭</text>
-	<text transform="matrix(1 0 0 1 1859 680)" class="st4 st8">亚</text>
-	<text transform="matrix(1 0 0 1 1859 694)" class="st4 st8">那</text>
-	<text transform="matrix(1 0 0 1 1924 680)" class="st4 st8">圭</text>
-	<text transform="matrix(1 0 0 1 1875 809)" class="st4 st8">巴西</text>
-	<text transform="matrix(1 0 0 1 1748 1019)" class="st4 st8">阿根廷</text>
-	<text transform="matrix(1 0 0 1 1702 1023)" class="st4 st8">智</text>
-	<text transform="matrix(1 0 0 1 1702 1037)" class="st4 st8">利</text>
-	<text transform="matrix(1 0 0 1 1831 1000)" class="st4 st8">乌</text>
-	<text transform="matrix(1 0 0 1 1831 1014)" class="st4 st8">拉</text>
-	<text transform="matrix(1 0 0 1 1831 1028)" class="st4 st8">圭</text>
-	<text transform="matrix(1 0 0 1 1812 885)" class="st4 st8">巴</text>
-	<text transform="matrix(1 0 0 1 1812 899)" class="st4 st8">拉</text>
-	<text transform="matrix(1 0 0 1 1812 913)" class="st4 st8">圭</text>
-	<text transform="matrix(1 0 0 1 1752 835)" class="st4 st8">玻利维亚</text>
+	<text transform="matrix(1 0 0 1 1617 793)" class="st4 st8">秘鲁</text>
+	<text transform="matrix(1 0 0 1 1637 699)" class="st4 st8">厄瓜</text>
+	<text transform="matrix(1 0 0 1 1637 713)" class="st4 st8">多尔</text>
+	<text transform="matrix(1 0 0 1 1627 635)" class="st4 st8">巴拿马</text>
+	<text transform="matrix(1 0 0 1 1691 664)" class="st4 st8">哥</text>
+	<text transform="matrix(1 0 0 1 1691 678)" class="st4 st8">伦</text>
+	<text transform="matrix(1 0 0 1 1691 692)" class="st4 st8">比</text>
+	<text transform="matrix(1 0 0 1 1691 706)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 1734 653)" class="st4 st8">委内瑞拉</text>
+	<text transform="matrix(1 0 0 1 1808 653)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1808 667)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 1808 681)" class="st4 st8">那</text>
+	<text transform="matrix(1 0 0 1 1873 667)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1824 796)" class="st4 st8">巴西</text>
+	<text transform="matrix(1 0 0 1 1697 1006)" class="st4 st8">阿根廷</text>
+	<text transform="matrix(1 0 0 1 1651 1010)" class="st4 st8">智</text>
+	<text transform="matrix(1 0 0 1 1651 1024)" class="st4 st8">利</text>
+	<text transform="matrix(1 0 0 1 1780 987)" class="st4 st8">乌</text>
+	<text transform="matrix(1 0 0 1 1780 1001)" class="st4 st8">拉</text>
+	<text transform="matrix(1 0 0 1 1780 1015)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1761 872)" class="st4 st8">巴</text>
+	<text transform="matrix(1 0 0 1 1761 886)" class="st4 st8">拉</text>
+	<text transform="matrix(1 0 0 1 1761 900)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1701 822)" class="st4 st8">玻利维亚</text>
 	<text transform="matrix(1 0 0 1 1122 429)" class="st4 st8">韩</text>
 	<text transform="matrix(1 0 0 1 1122 443)" class="st4 st8">国</text>
 	<text transform="matrix(1 0 0 1 331 336)" class="st4 st6">瑞士</text>
@@ -507,7 +507,7 @@
 	<text transform="matrix(1 0 0 1 359 360)" class="st4 st7">圣</text>
 	<text transform="matrix(1 0 0 1 341 382)" class="st4 st7">梵</text>
 	<text transform="matrix(1 0 0 1 441 438)" class="st4 st7">塞浦路斯</text>
-	<text transform="matrix(1 0 0 1 1792 479)" class="st4 st7">巴哈马</text>
+	<text transform="matrix(1 0 0 1 1741 466)" class="st4 st7">巴哈马</text>
 	<text transform="matrix(1 0 0 1 985 812)" class="st4 st7">东</text>
 	<text transform="matrix(1 0 0 1 995 672)" class="st4 st7">文</text>
 	<text transform="matrix(1 0 0 1 592 511)" class="st4 st7">巴</text>
@@ -516,21 +516,21 @@
 	<text transform="matrix(1 0 0 1 485 460)" class="st4 st7">巴</text>
 </g>
 <g id="等级">
-	<rect x="1455" y="955" class="st1" width="120" height="226"/>
-	<rect x="1456" y="956" class="st9" width="118" height="32"/>
-	<rect x="1456" y="988" class="st10" width="118" height="32"/>
-	<rect x="1456" y="1020" class="st11" width="118" height="32"/>
-	<rect x="1456" y="1052" class="st12" width="118" height="32"/>
-	<rect x="1456" y="1084" class="st13" width="118" height="32"/>
-	<rect x="1456" y="1116" class="st14" width="118" height="32"/>
-	<text transform="matrix(1 0 0 1 1488 978)" class="st4 st15">居住５</text>
-	<text transform="matrix(1 0 0 1 1488 1010)" class="st4 st15">短居４</text>
-	<text transform="matrix(1 0 0 1 1488 1042)" class="st4 st15">游玩３</text>
-	<text transform="matrix(1 0 0 1 1488 1074)" class="st4 st15">出差２</text>
-	<text transform="matrix(1 0 0 1 1488 1106)" class="st4 st15">路过１</text>
-	<text transform="matrix(1 0 0 1 1488 1138)" class="st4 st15">想要去</text>
-	<text transform="matrix(1 0 0 1 1488 1170)" class="st4 st15">没去过</text>
+	<rect x="1357.8" y="942" class="st1" width="190" height="226"/>
+	<rect x="1358.8" y="943" class="st9" width="188" height="32"/>
+	<rect x="1358.8" y="975" class="st10" width="188" height="32"/>
+	<rect x="1358.8" y="1007" class="st11" width="188" height="32"/>
+	<rect x="1358.8" y="1039" class="st12" width="188" height="32"/>
+	<rect x="1358.8" y="1071" class="st13" width="188" height="32"/>
+	<rect x="1358.8" y="1103" class="st14" width="188" height="32"/>
+	<text transform="matrix(1 0 0 1 1390 965)" class="st4 st15">居住５·年以上</text>
+	<text transform="matrix(1 0 0 1 1390 997)" class="st4 st15">短居４·月以上</text>
+	<text transform="matrix(1 0 0 1 1390 1029)" class="st4 st15">游玩３·旅行过</text>
+	<text transform="matrix(1 0 0 1 1390 1061)" class="st4 st15">出差２·没玩上</text>
+	<text transform="matrix(1 0 0 1 1390 1093)" class="st4 st15">路过１·没接地</text>
+	<text transform="matrix(1 0 0 1 1425 1125)" class="st4 st15">想要去</text>
+	<text transform="matrix(1 0 0 1 1425 1157)" class="st4 st15">没去过</text>
 </g>
-<text id="全球制霸" transform="matrix(1 0 0 1 31 1184)" class="st4 st16">全球制霸·神奇海螺试验场</text>
-<text id="分数" transform="matrix(1 0 0 1 31 1136)" class="st4 st17">分数</text>
+<text id="全球制霸" transform="matrix(1 0 0 1 31 1177)" class="st4 st16">全球制霸·神奇海螺试验场</text>
+<text id="分数" transform="matrix(1 0 0 1 31 1129)" class="st4 st17">分数</text>
 </svg>
