@@ -20,6 +20,16 @@ const replaceSVG = text=>{
     text = text.replace(/ xmlns:xlink="http:\/\/www\.w3\.org\/1999\/xlink"/g,'')
     text = text.replace(/<rect y="0" class=".+?" width="2000" height="1210"\/?>/g,'')
     text = text.replace(/'Tensentype-JiaLiDaYuanJF'/g,'slice')
+
+    text = text.replace(/<polygon id="(.+?)" class="(.+?)" points="([^"]+)\s{0,}"\/>/g,(all,id,c,p)=>{
+        return `<path id="${id}" class="${c}" d="M${p.trim().replace(/[\n\r]/g,' ').replace(/\s+/g,' ')}z" />`
+    });
+    // <rect id="法国" x="1" y="10" class="st1" width="100" height="1000"/>
+    // <path id="法国" class="st1" d="M1 10h100v1000H1Z" />
+    text = text.replace(/<rect id="(.+?)" x="(\d+)" y="(\d+)" class="(.+?)" width="(\d+)" height="(\d+)"\/>/g,(all,id,x,y,c,w,h)=>{
+        // console.log(x,y,w,h)
+        return `<path id="${id}" class="${c}" d="M${x} ${y}h${w}v${h}H${x}Z" />`
+    });
     
     text = text.replace(/<style type="text\/css">/,'<style></style><style>'+levelsStyleText)
     return text;
