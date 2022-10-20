@@ -158,6 +158,7 @@ const log = _=>(createImage()).src = `https://lab.magiconch.com/api/world-ex/log
 
 const outputEl = $('.output');
 const outputImageStyle = outputEl.style;
+const generateName = _=>Math.floor((+new Date()-163e10)/1e4).toString(32);
 const saveImage = _=>{
     htmlEl.setAttribute('data-running','true');
 
@@ -182,7 +183,7 @@ const saveImage = _=>{
             outputImageStyle.display = '';
 
             setTimeout(_=>{
-                saveFile(url,`[神奇海螺][全球制霸]${+new Date()}.png`);
+                saveFile(url,`[神奇海螺][全球制霸]${generateName()}.png`);
                 htmlEl.removeAttribute('data-running');
             },50)
             
