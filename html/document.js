@@ -4,28 +4,30 @@ const createElement = n => document.createElement(n);
 const createImage = _=> new Image();
 const addEvent = (el,ev,cb) => el[`on${ev}`] = cb;// 元素.addEventListener(事件,cb);
 const getRect = el => el.getBoundingClientRect();
-const setLevelTitleEl = 设置等级.children[0];
-
+const $ = (s,el=document) => el.querySelector(s);
+const setlevelEl = $('.set-level');
+const setLevelTitleEl = setlevelEl.children[0];
+const countryBoxEl = $('#countrys');
 const closeAll = _=>{
     setLevelStyle.display = '';
 };
 const data = {};
-const getLevelEls = _=>[...国家.children];
-const getLevels = _=>getLevelEls().map(el=>el.getAttribute('level')||'0');
+const getCountryEls = _=>[...countryBoxEl.children];
+const getLevels = _=>getCountryEls().map(el=>el.getAttribute('level')||'0');
 const localStorageLevelsKey = 'world-ex-levels';
 const saveLevels = _=>{
     localStorage.setItem(localStorageLevelsKey,getLevels().join(''));
 };
 const gelLevelsAndSet = _=>{
     const levels = localStorage.getItem(localStorageLevelsKey) || '';
-    getLevelEls().forEach((元素,i)=>{
-        元素.setAttribute('level',levels[i]||'0')
+    getCountryEls().forEach((el,i)=>{
+        el.setAttribute('level',levels[i]||'0')
     })
 };
 const svgEl = body.querySelector('svg');
-const setLevelStyle = 设置等级.style;
+const setLevelStyle = setlevelEl.style;
 const minMargin = 6;
-addEvent(国家,'click', e=>{
+addEvent(countryBoxEl,'click', e=>{
     e.stopPropagation();
 
     const { target } = e;
@@ -36,7 +38,7 @@ addEvent(国家,'click', e=>{
 
     setLevelTitleEl.innerHTML = id;
     setLevelStyle.display = 'block';
-    const setLevelElRect = getRect(设置等级);
+    const setLevelElRect = getRect(setlevelEl);
     const targetBBox = target.getBBox();
     const svgElBBox = svgEl.getBBox();
     const svgRect = getRect(svgEl);
@@ -46,61 +48,62 @@ addEvent(国家,'click', e=>{
     // console.log(setLevelElRect)
     // console.log(svgRect)
 
-    let 左 = Math.round(body.scrollLeft + targetRect.left + targetRect.width/2 - setLevelElRect.width/2);
-    // 左 = Math.min(
-    //     左,
+    let left = Math.round(body.scrollLeft + targetRect.left + targetRect.width/2 - setLevelElRect.width/2);
+    // left = Math.min(
+    //     left,
     //     body.offsetWidth + body.scrollWidth - setLevelElRect.width - minMargin
     // );
-    // 左 = Math.max(
-    //     左,
+    // left = Math.max(
+    //     left,
     //     minMargin
     // );
 
-    let 上 = Math.round(body.scrollTop + targetRect.top + targetRect.height/2 - setLevelElRect.height/2);
-    // 上 = Math.min(
-    //     上,
+    let top = Math.round(body.scrollTop + targetRect.top + targetRect.height/2 - setLevelElRect.height/2);
+    // top = Math.min(
+    //     top,
     //     body.offsetHeight + body.scrollHeight - setLevelElRect.height - minMargin
     // );
-    // 上 = Math.max(
-    //     上,
+    // top = Math.max(
+    //     top,
     //     minMargin
     // );
-    上 = body.scrollTop;
+    top = body.scrollTop;
 
     const scalc = svgRect.width / 2000;
 
     // console.log(scalc)
 
-    左 = targetBBox.x * scalc + svgElBBox.x;
-    上 = targetBBox.y * scalc + svgElBBox.y;
+    left = targetBBox.x * scalc + svgElBBox.x;
+    top = targetBBox.y * scalc + svgElBBox.y;
     // console.log(svgEl,targetBBox,svgElBBox)
 
-    左 = e.pageX + - setLevelElRect.width/2 + body.scrollLeft;
-    上 = e.pageY + - setLevelElRect.height/2 + body.scrollTop + 4;
+    left = e.pageX + - setLevelElRect.width/2 + body.scrollLeft;
+    top = e.pageY + - setLevelElRect.height/2 + body.scrollTop + 4;
     
 
-    setLevelStyle.left = 左 + 'px';
-    setLevelStyle.top = 上 + 'px';
+    setLevelStyle.left = left + 'px';
+    setLevelStyle.top = top + 'px';
 });
 addEvent(document,'click',closeAll);
-const 计分 = _=>{
-    const 分 = getLevels().reduce((all, a) => {
+const scoreEl = $('#score');
+const stat = _=>{
+    const score = getLevels().reduce((all, a) => {
         return +all + (+a||0);
       }, 0);
-    分数.innerHTML = `分数: ${分}`;
+    scoreEl.innerHTML = `分数: ${score}`;
 }
-addEvent(设置等级,'click',e=>{
+addEvent(setlevelEl,'click',e=>{
     e.stopPropagation();
-    const 等级 = e.target.getAttribute('data-level');
-    if(!等级) return false;
-    data.target.setAttribute('level',等级);
-    计分();
+    const level = e.target.getAttribute('data-level');
+    if(!level) return false;
+    data.target.setAttribute('level',level);
+    stat();
     closeAll();
     saveLevels();
 })
 
 gelLevelsAndSet();
-计分();
+stat();
 
 const readFileToURL = (blob,cb)=>{
     const reader = new FileReader();
@@ -110,17 +113,17 @@ const readFileToURL = (blob,cb)=>{
 const getFontDataURL = (url,cb)=>{
     fetch(url).then(r => r.blob()).then(blob => readFileToURL(blob,cb));
 };
-const 获取字体样式 = (fontName,cb)=>{
+const getFontStyle = (fontName,cb)=>{
     getFontDataURL(`${fontName}.woff?v={version}`,url => cb(`@font-face {
         font-family: ${fontName};
         src: url(${url});
     };`));
 };
-获取字体样式('slice',styleText=>{
+getFontStyle('slice',styleText=>{
     svgEl.querySelector('style').innerHTML = styleText;
-    const 样式元素 = createElement('style');
-    样式元素.innerHTML = styleText;
-    head.appendChild(样式元素);
+    const styleEl = createElement('style');
+    styleEl.innerHTML = styleText;
+    head.appendChild(styleEl);
     setTimeout(_=>htmlEl.removeAttribute('data-loading'),2e3);
 });
 
@@ -141,7 +144,7 @@ const fromXMLCreateImageSrc = document文本=>{
 };
 const isSNS = /weibo|qq/i.test(navigator.userAgent);
 // alert(navigator.userAgent)
-const 下载文件 = (link,filename,el = createElement('a'))=>{
+const saveFile = (link,filename,el = createElement('a'))=>{
     if(!isSNS){
         el.download = filename;
     }
@@ -149,26 +152,27 @@ const 下载文件 = (link,filename,el = createElement('a'))=>{
     el.click();
 };
 const urlToImageEl = (url,cb)=>{
-    const 图 = createImage();
-    addEvent(图,'load',_=>setTimeout(_=>cb(图),500));
-    图.src = url;
+    const img = createImage();
+    addEvent(img,'load',_=>setTimeout(_=>cb(img),500));
+    img.src = url;
 };
-const 日志 = _=>(createImage()).src = `https://lab.magiconch.com/api/world-ex/log?levels=${getLevels().join('')}`;
+const log = _=>(createImage()).src = `https://lab.magiconch.com/api/world-ex/log?levels=${getLevels().join('')}`;
 
-const outputImageStyle = 输出图像.style;
+const outputEl = $('.output');
+const outputImageStyle = outputEl.style;
 const saveImage = _=>{
     htmlEl.setAttribute('data-running','true');
 
     const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}px" height="${height}px">${svgEl.innerHTML}</svg>`;
     const dataURL = fromXMLCreateImageSrc(xmlText);
-    urlToImageEl(dataURL,图=>{
+    urlToImageEl(dataURL,imgEl=>{
         ctx.fillStyle = '#BAE4FF';
         ctx.fillRect(
             0,0,
             width * zoom,width * zoom
         );
         ctx.drawImage(
-            图,
+            imgEl,
             0,0,
             width,height,
             0, (width - height) * zoom / 2,
@@ -176,22 +180,22 @@ const saveImage = _=>{
         );
         canvas.toBlob(blob=>{
             const url = URL.createObjectURL(blob);
-            输出图像.querySelector('img').src = url;
+            outputEl.querySelector('img').src = url;
             outputImageStyle.display = '';
 
             setTimeout(_=>{
-                下载文件(url,`[神奇海螺][全球制霸]${+new Date()}.png`);
+                saveFile(url,`[神奇海螺][全球制霸]${+new Date()}.png`);
                 htmlEl.removeAttribute('data-running');
             },50)
             
 
         },'image/png');
     });
-    日志();
+    log();
 };
 
-addEvent(保存,'click',saveImage);
+addEvent($('.save-btn'),'click',saveImage);
 
-addEvent(输出图像.querySelector('a'),'click',_=>{
+addEvent($('a',outputEl),'click',_=>{
     outputImageStyle.display = 'none'
 });

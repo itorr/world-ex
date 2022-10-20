@@ -25,7 +25,7 @@
 	.st17{font-size:60px;}
 </style>
 <rect y="0" class="st0" width="2000" height="1210"/>
-<g id="国家">
+<g id="countrys">
 	<polygon id="俄罗斯" class="st1" points="516,41 1335,41 1335,204 1280,204 1280,260 1224,260 1224,181 1169,181 1167,315 
 		1146,315 1146,381 1117,381 1117,315 601,315 601,384 518,385 	"/>
 	<polygon id="希腊" class="st1" points="402,388 478,388 478,396 439,396 439,424 402,424 	"/>
@@ -218,7 +218,7 @@
 	<polygon id="塞舌尔" class="st3" points="605,760 615,760 615,769 605,769 	"/>
 	<polygon id="巴勒斯坦" class="st3" points="484,453 494,453 494,462 484,462 	"/>
 </g>
-<g id="标签">
+<g>
 	<text transform="matrix(1 0 0 1 492 649)" class="st4 st5">吉布提</text>
 	<text transform="matrix(1 0 0 1 1602 615)" class="st4 st6">哥斯达</text>
 	<text transform="matrix(1 0 0 1 1602 626)" class="st4 st6">黎加</text>
@@ -457,12 +457,11 @@
 	<text transform="matrix(1 0 0 1 1062 633)" class="st4 st8">菲律宾</text>
 	<text transform="matrix(1 0 0 1 1079 924)" class="st4 st8">澳洲</text>
 	<text transform="matrix(1 0 0 1 723 1095)" class="st4 st8">南极</text>
-	<text transform="matrix(1 0 0 1 553 851)" class="st4 st8">马</text>
-	<text transform="matrix(1 0 0 1 553 865)" class="st4 st8">达</text>
-	<text transform="matrix(1 0 0 1 553 879)" class="st4 st8">加</text>
-	<text transform="matrix(1 0 0 1 553 893)" class="st4 st8">斯</text>
-	<text transform="matrix(1 0 0 1 553 907)" class="st4 st8">加</text>
-	<text transform="matrix(1 0 0 1 553 921)" class="st4 st8">岛</text>
+	<text transform="matrix(1 0 0 1 553 858)" class="st4 st8">马</text>
+	<text transform="matrix(1 0 0 1 553 872)" class="st4 st8">达</text>
+	<text transform="matrix(1 0 0 1 553 886)" class="st4 st8">加</text>
+	<text transform="matrix(1 0 0 1 553 900)" class="st4 st8">斯</text>
+	<text transform="matrix(1 0 0 1 553 914)" class="st4 st8">加</text>
 	<text transform="matrix(1 0 0 1 1252 1036)" class="st4 st8">新</text>
 	<text transform="matrix(1 0 0 1 1252 1050)" class="st4 st8">西</text>
 	<text transform="matrix(1 0 0 1 1252 1064)" class="st4 st8">兰</text>
@@ -515,14 +514,14 @@
 	<text transform="matrix(1 0 0 1 1215 627)" class="st4 st7">塞</text>
 	<text transform="matrix(1 0 0 1 485 460)" class="st4 st7">巴</text>
 </g>
-<g id="等级">
+<g>
 	<rect x="1357.8" y="942" class="st1" width="190" height="226"/>
-	<rect x="1358.8" y="943" class="st9" width="188" height="32"/>
-	<rect x="1358.8" y="975" class="st10" width="188" height="32"/>
-	<rect x="1358.8" y="1007" class="st11" width="188" height="32"/>
-	<rect x="1358.8" y="1039" class="st12" width="188" height="32"/>
-	<rect x="1358.8" y="1071" class="st13" width="188" height="32"/>
-	<rect x="1358.8" y="1103" class="st14" width="188" height="32"/>
+	<rect x="1358" y="943" class="st9" width="188" height="32"/>
+	<rect x="1358" y="975" class="st10" width="188" height="32"/>
+	<rect x="1358" y="1007" class="st11" width="188" height="32"/>
+	<rect x="1358" y="1039" class="st12" width="188" height="32"/>
+	<rect x="1358" y="1071" class="st13" width="188" height="32"/>
+	<rect x="1358" y="1103" class="st14" width="188" height="32"/>
 	<text transform="matrix(1 0 0 1 1387 965)" class="st4 st15">５居住·年以上</text>
 	<text transform="matrix(1 0 0 1 1387 997)" class="st4 st15">４短居·月以上</text>
 	<text transform="matrix(1 0 0 1 1387 1029)" class="st4 st15">３游玩·旅行过</text>
@@ -531,6 +530,6 @@
 	<text transform="matrix(1 0 0 1 1425 1125)" class="st4 st15">想要去</text>
 	<text transform="matrix(1 0 0 1 1425 1157)" class="st4 st15">没去过</text>
 </g>
-<text id="全球制霸" transform="matrix(1 0 0 1 31 1177)" class="st4 st16">全球制霸·神奇海螺试验场</text>
-<text id="分数" transform="matrix(1 0 0 1 31 1129)" class="st4 st17">分数</text>
+<text transform="matrix(1 0 0 1 31 1177)" class="st4 st16">全球制霸·神奇海螺试验场</text>
+<text id="score" transform="matrix(1 0 0 1 31 1129)" class="st4 st17">分数</text>
 </svg>

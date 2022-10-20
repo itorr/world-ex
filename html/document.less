@@ -12,7 +12,7 @@ svg{
     width: 100%;
     height: 100%;
     pointer-events: none;
-    #国家{
+    #countrys{
         pointer-events: none;
         &>*{
             pointer-events: auto;
@@ -26,9 +26,9 @@ a{
     text-decoration: none;
 }
 ::selection{
-    background-color: #FF7E7E;
+    background-color: #7e98ff;
 }
-#设置等级{
+.set-level{
     display: none;
     position: absolute;
     z-index: 1;
@@ -63,7 +63,7 @@ a{
         &[data-level="w"]{background:#edd1ff;}
     }
 }
-.按钮{
+.btn{
     background: #FFF;
     box-shadow: 0 0 0 2px #111;
     border-radius: 3px;
@@ -77,12 +77,12 @@ footer{
     justify-content: flex-start;
     a{
         padding: 6px 10px;
-        &.按钮{
+        &.btn{
             margin-right: 10px;
         }
     }
 }
-#输出图像{
+.output{
     display: flex;
     position: fixed;
     top: 0;
@@ -110,7 +110,7 @@ footer{
         margin: 0;
         padding: 20px 0;
     }
-    .按钮{
+    .btn{
         display: block;
         padding: 8px 12px;
         box-shadow: 0 0 0 2px #111;
@@ -140,10 +140,10 @@ footer{
             padding: 6px 8px;
         }
     }
-    .按钮{
+    .btn{
         box-shadow: 0 0 0 2px #111;
     }
-    #设置等级{
+    .set-level{
         width: 120px;
         border-width: 2px;
         h2{
