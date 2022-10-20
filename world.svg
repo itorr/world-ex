@@ -3,23 +3,26 @@
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="2050px" height="1220px" viewBox="0 0 2050 1220" style="enable-background:new 0 0 2050 1220;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#BAE4FF;}
+	.st0{fill:#BAE4FF;stroke:#000000;stroke-miterlimit:10;}
 	
 		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
-	.st2{font-family:'Tensentype-JiaLiDaYuanJF';}
-	.st3{font-size:12px;}
-	.st4{font-size:10px;}
-	.st5{font-size:8px;}
-	.st6{font-size:14px;}
-	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7E7E;}
-	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#FFB57E;}
-	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE57E;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#A8FFBE;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#88AEFF;}
-	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#EDD1FF;}
-	.st13{font-size:18px;}
-	.st14{font-size:30px;}
-	.st15{font-size:60px;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}
+	
+		.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{font-family:'Tensentype-JiaLiDaYuanJF';}
+	.st5{font-size:12px;}
+	.st6{font-size:10px;}
+	.st7{font-size:8px;}
+	.st8{font-size:14px;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7E7E;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#FFB57E;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE57E;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#A8FFBE;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#88AEFF;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#EDD1FF;}
+	.st15{font-size:18px;}
+	.st16{font-size:30px;}
+	.st17{font-size:60px;}
 </style>
 <rect y="0" class="st0" width="2050" height="1220"/>
 <g id="国家">
@@ -37,12 +40,12 @@
 	<rect id="毛里塔尼亚" x="140" y="557" class="st1" width="58" height="47"/>
 	<rect id="摩洛哥" x="122" y="426" class="st1" width="46" height="57"/>
 	<rect id="塞内加尔" x="137" y="604" class="st1" width="45" height="22"/>
-	<rect id="几内亚" x="140" y="626" class="st1" width="54" height="38"/>
+	<rect id="几内亚" x="142" y="626" class="st1" width="52" height="38"/>
 	<rect id="利比里亚" x="159" y="664" class="st1" width="35" height="34"/>
-	<rect id="塞拉利昂" x="140" y="653" class="st1" width="24" height="24"/>
+	<rect id="塞拉利昂" x="140" y="653" class="st2" width="24" height="24"/>
 	<rect id="几内亚比索" x="126" y="626" class="st1" width="28" height="21"/>
-	<rect id="冈比亚" x="130" y="610" class="st1" width="28" height="11"/>
-	<rect id="斯里兰卡" x="806" y="646" class="st1" width="29" height="46"/>
+	<rect id="冈比亚" x="130" y="610" class="st2" width="28" height="11"/>
+	<rect id="斯里兰卡" x="806" y="646" class="st2" width="29" height="46"/>
 	<rect id="菲律宾" x="1050" y="580" class="st1" width="65" height="98"/>
 	<path id="马来西亚" class="st1" d="M1024,664v38h-63v-21h-15v24h-36v-35h36v5h15v-11H1024z"/>
 	<rect id="朝鲜" x="1099" y="381" class="st1" width="42" height="32"/>
@@ -51,18 +54,18 @@
 	<rect id="美·夏威夷" x="1365" y="530" class="st1" width="53" height="42"/>
 	<path id="美国" class="st1" d="M1555,291h329v154h-329V291z M1410,95h145v133h-145V95z"/>
 	<rect id="墨西哥" x="1555" y="445" class="st1" width="170" height="108"/>
-	<rect id="多米尼加" x="1864" y="518" class="st1" width="36" height="28"/>
-	<rect id="波多黎各" x="1911" y="538" class="st1" width="55" height="22"/>
-	<polygon id="海地" class="st1" points="1841,518 1864,518 1864,546 1841,546 	"/>
+	<rect id="多米尼加" x="1864" y="518" class="st2" width="36" height="28"/>
+	<rect id="波多黎各" x="1911" y="538" class="st2" width="55" height="22"/>
+	<polygon id="海地" class="st2" points="1841,518 1864,518 1864,546 1841,546 	"/>
 	<rect id="古巴" x="1754" y="494" class="st1" width="81" height="34"/>
-	<rect id="牙买加" x="1790" y="538" class="st1" width="42" height="18"/>
+	<rect id="牙买加" x="1790" y="538" class="st2" width="42" height="18"/>
 	<rect id="危地马拉" x="1582" y="542" class="st1" width="67" height="44"/>
-	<rect id="萨尔瓦多" x="1590" y="578" class="st1" width="20" height="19"/>
+	<rect id="萨尔瓦多" x="1590" y="578" class="st2" width="20" height="19"/>
 	<rect id="伯利兹" x="1637" y="532" class="st1" width="44" height="34"/>
-	<rect id="洪都拉斯" x="1610" y="578" class="st1" width="47" height="34"/>
-	<rect id="尼加拉瓜" x="1631" y="597" class="st1" width="42" height="29"/>
-	<rect id="哥斯达黎加" x="1650" y="617" class="st1" width="36" height="26"/>
-	<rect id="巴拿马" x="1676" y="632" class="st1" width="50" height="24"/>
+	<rect id="洪都拉斯" x="1610" y="578" class="st2" width="47" height="34"/>
+	<rect id="尼加拉瓜" x="1631" y="597" class="st2" width="42" height="29"/>
+	<rect id="哥斯达黎加" x="1650" y="617" class="st2" width="36" height="26"/>
+	<rect id="巴拿马" x="1676" y="632" class="st2" width="50" height="24"/>
 	<rect id="秘鲁" x="1640" y="727" class="st1" width="107" height="152"/>
 	<rect id="厄瓜多尔" x="1683" y="687" class="st1" width="44" height="53"/>
 	<rect id="智利" x="1697" y="879" class="st1" width="45" height="302"/>
@@ -86,27 +89,27 @@
 	<rect id="白俄罗斯" x="455" y="246" class="st1" width="79" height="44"/>
 	<rect id="乌克兰" x="447" y="289" class="st1" width="114" height="54"/>
 	<rect id="罗马里亚" x="434" y="320" class="st1" width="55" height="45"/>
-	<rect id="塞尔维亚" x="402" y="337" class="st1" width="32" height="37"/>
-	<rect id="摩尔多瓦" x="472" y="315" class="st1" width="22" height="22"/>
+	<rect id="塞尔维亚" x="401" y="337" class="st1" width="33" height="37"/>
+	<rect id="摩尔多瓦" x="472" y="315" class="st2" width="22" height="22"/>
 	<rect id="丹麦" x="365" y="222" class="st1" width="26" height="29"/>
-	<rect id="德国" x="345" y="251" class="st1" width="61" height="74"/>
+	<rect id="德国" x="339" y="251" class="st1" width="67" height="75"/>
 	<rect id="荷兰" x="332" y="251" class="st1" width="30" height="28"/>
-	<rect id="英国" x="276" y="204" class="st1" width="48" height="92"/>
-	<rect id="爱尔兰" x="200" y="246" class="st1" width="49" height="40"/>
-	<rect id="英·北爱尔兰" x="238" y="235" class="st1" width="20" height="19"/>
-	<rect id="马恩岛" x="257" y="260" class="st1" width="12" height="11"/>
-	<rect id="法罗群岛" x="280" y="162" class="st1" width="44" height="14"/>
+	<rect id="英国" x="267" y="204" class="st1" width="49" height="89"/>
+	<rect id="爱尔兰" x="191" y="246" class="st1" width="49" height="40"/>
+	<rect id="英·北爱尔兰" x="229" y="235" class="st2" width="20" height="19"/>
+	<rect id="马恩岛" x="248" y="260" class="st2" width="12" height="11"/>
+	<rect id="法罗群岛" x="280" y="162" class="st2" width="44" height="14"/>
 	<rect id="冰岛" x="205" y="114" class="st1" width="71" height="50"/>
 	<rect id="巴布亚新几内亚" x="1143" y="716" class="st1" width="91" height="75"/>
 	<path id="澳洲" class="st1" d="M1224,838v160h-50v11h19v37h-51v-37h26v-11h-149V838H1224z"/>
 	<rect id="新西兰" x="1264" y="976" class="st1" width="51" height="135"/>
 	<rect id="所罗门群岛" x="1272" y="757" class="st1" width="60" height="31"/>
-	<rect id="瓦努阿图" x="1271" y="839" class="st1" width="32" height="33"/>
+	<rect id="瓦努阿图" x="1271" y="839" class="st2" width="32" height="33"/>
 	<rect id="斐济" x="1355" y="848" class="st1" width="32" height="43"/>
 	<rect id="马达加斯加岛" x="538" y="826" class="st1" width="44" height="112"/>
 	<rect id="西撒哈拉" x="122" y="483" class="st1" width="46" height="77"/>
-	<rect id="西班牙" x="178" y="348" class="st1" width="79" height="74"/>
-	<rect id="葡萄牙" x="159" y="357" class="st1" width="19" height="55"/>
+	<rect id="西班牙" x="169" y="348" class="st1" width="79" height="74"/>
+	<rect id="葡萄牙" x="150" y="357" class="st1" width="19" height="55"/>
 	<rect id="阿尔及利亚" x="168" y="435" class="st1" width="157" height="122"/>
 	<polygon id="挪威" class="st1" points="341,41 520,41 520,77 398,77 398,201 341,201 	"/>
 	<rect id="阿曼" x="590" y="557" class="st1" width="58" height="39"/>
@@ -128,7 +131,7 @@
 	<rect id="尼日利亚" x="278" y="626" class="st1" width="49" height="80"/>
 	<rect id="刚果" x="313" y="693" class="st1" width="56" height="78"/>
 	<rect id="加蓬" x="313" y="720" class="st1" width="33" height="40"/>
-	<rect id="赤道几内亚" x="313" y="720" class="st1" width="16" height="15"/>
+	<rect id="赤道几内亚" x="313" y="720" class="st2" width="16" height="16"/>
 	<rect id="喀麦隆" x="311" y="643" class="st1" width="35" height="77"/>
 	<rect id="安哥拉" x="317" y="779" class="st1" width="76" height="79"/>
 	<rect id="坦桑尼亚" x="423" y="740" class="st1" width="65" height="93"/>
@@ -148,15 +151,15 @@
 	<rect id="北马其顿" x="408" y="374" class="st1" width="24" height="19"/>
 	<rect id="法属圭亚那" x="1916" y="662" class="st1" width="29" height="28"/>
 	<polygon id="瑞典" class="st1" points="473,67 473,117 445,117 445,224 398,224 398,67 	"/>
-	<rect id="法国" x="246" y="302" class="st1" width="99" height="67"/>
-	<rect id="比利时" x="329" y="279" class="st1" width="39" height="25"/>
-	<rect id="卢森堡" x="333" y="300" class="st1" width="26" height="11"/>
+	<rect id="法国" x="237" y="302" class="st1" width="102" height="67"/>
+	<rect id="比利时" x="328" y="279" class="st1" width="40" height="25"/>
+	<rect id="卢森堡" x="333" y="300" class="st2" width="26" height="11"/>
 	<rect id="意大利" x="335" y="343" class="st1" width="40" height="73"/>
 	<rect id="瑞士" x="325" y="322" class="st1" width="36" height="21"/>
-	<rect id="阿尔巴尼亚" x="396" y="376" class="st1" width="12" height="25"/>
-	<rect id="黑山" x="391" y="365" class="st1" width="11" height="11"/>
-	<rect id="科索沃" x="402" y="369" class="st1" width="11" height="11"/>
-	<rect id="新加坡" x="915" y="708" class="st1" width="28" height="13"/>
+	<rect id="阿尔巴尼亚" x="396" y="375" class="st1" width="12" height="26"/>
+	<rect id="黑山" x="391" y="365" class="st2" width="11" height="11"/>
+	<rect id="科索沃" x="402" y="369" class="st2" width="11" height="11"/>
+	<rect id="新加坡" x="915" y="708" class="st2" width="28" height="13"/>
 	<rect id="缅甸" x="888" y="491" class="st1" width="29" height="119"/>
 	<polygon id="泰国" class="st1" points="914,558 914,670 939,670 939,653.9 933,653.9 933,619.8 952,619.8 952,592.7 933,592.7 
 		933,558 	"/>
@@ -165,7 +168,7 @@
 	<path id="中国" class="st1" d="M1098,518v27h-13v-27H1098z M1141,267v114h-85v35h21v129H917v-53h-48l-30-8h-33V315h100v53h114
 		V267H1141z M1019,554h21v22h-21V554z"/>
 	<polygon id="尼泊尔" class="st1" points="823,478 823,499 872,499 872,478 	"/>
-	<rect id="不丹" x="877" y="485" class="st1" width="24" height="14"/>
+	<rect id="不丹" x="877" y="485" class="st2" width="24" height="14"/>
 	<polygon id="哈萨克" class="st1" points="605,267 829,267 829,365 698,365 698,325 671,325 671,377 631,377 631,325 605,325 	
 		"/>
 	<polygon id="乌兹别克斯坦" class="st1" points="649,348 671,348 671,354 698,354 698,348 746,348 746,408 649,408 	"/>
@@ -174,358 +177,360 @@
 	<rect id="塔吉克斯坦" x="722" y="396" class="st1" width="84" height="28"/>
 	<rect id="阿塞拜疆" x="571" y="384" class="st1" width="38" height="19"/>
 	<rect id="格鲁吉亚" x="545" y="364" class="st1" width="40" height="20"/>
-	<rect id="亚美尼亚" x="551" y="378" class="st1" width="20" height="19"/>
-	<polygon id="伊拉克" class="st1" points="535,424 594,424 594,496 562,496 562,501 535,501 	"/>
+	<rect id="亚美尼亚" x="551" y="378" class="st2" width="20" height="19"/>
+	<polygon id="伊拉克" class="st1" points="535,424 594,424 594,496 563,496 563,500 535,500 	"/>
 	<rect id="奥地利" x="367" y="311" class="st1" width="34" height="22"/>
-	<rect id="列支敦士登" x="357" y="325" class="st1" width="11" height="11"/>
-	<rect id="克罗地亚" x="391" y="337" class="st1" width="19" height="28"/>
-	<rect id="波赫" x="394" y="354" class="st1" width="20" height="11"/>
-	<rect id="科威特" x="562" y="488" class="st1" width="28" height="13"/>
+	<rect id="列支敦士登" x="358" y="325" class="st2" width="10" height="11"/>
+	<rect id="克罗地亚" x="391" y="337" class="st2" width="19" height="28"/>
+	<rect id="波赫" x="394" y="354" class="st2" width="20" height="11"/>
+	<rect id="科威特" x="562" y="488" class="st2" width="28" height="13"/>
 	<rect id="叙利亚" x="495" y="411" class="st1" width="64" height="41"/>
 	<rect id="约旦" x="494" y="452" class="st1" width="41" height="17"/>
 	<rect id="黎巴嫩" x="480" y="435" class="st1" width="28" height="13"/>
-	<rect id="以色列" x="480" y="448" class="st1" width="14" height="34"/>
-	<rect id="斯洛文尼亚" x="388" y="332" class="st1" width="15" height="11"/>
+	<rect id="以色列" x="480" y="448" class="st1" width="14" height="49"/>
+	<rect id="斯洛文尼亚" x="389" y="332" class="st2" width="14" height="11"/>
 	<rect id="布基纳法索" x="217" y="605" class="st1" width="44" height="31"/>
 	<polygon id="纳米比亚" class="st1" points="330,858 415,858 415,864 385,864 385,876 376,876 376,958 330,958 	"/>
 	<rect id="赞比亚" x="393" y="804" class="st1" width="57" height="54"/>
-	<rect id="马拉维" x="447" y="825" class="st1" width="15" height="15"/>
-	<rect id="斯威士兰" x="455" y="924" class="st1" width="14" height="14"/>
+	<rect id="马拉维" x="447" y="825" class="st2" width="16" height="15"/>
+	<rect id="斯威士兰" x="455" y="924" class="st2" width="14" height="14"/>
 	<rect id="斯洛伐克" x="401" y="303" class="st1" width="46" height="13"/>
-	<rect id="莱索托" x="438" y="945" class="st1" width="14" height="14"/>
+	<rect id="莱索托" x="438" y="945" class="st2" width="14" height="14"/>
 	<rect id="波兰" x="406" y="251" class="st1" width="49" height="52"/>
 	<rect id="捷克" x="379" y="289" class="st1" width="32" height="22"/>
 	<rect id="卢旺达" x="423" y="740" class="st1" width="34" height="14"/>
 	<rect id="布隆迪" x="423" y="754" class="st1" width="34" height="14"/>
 	<rect id="立陶宛" x="438" y="243" class="st1" width="42" height="19"/>
-	<polygon id="马耳他" class="st1" points="361,426 391,426 391,437 361,437 	"/>
-	<polygon id="塞浦路斯" class="st1" points="439,430 475,430 475,441 439,441 	"/>
-	<polygon id="卡塔尔" class="st1" points="590,517 618,517 618,528 590,528 	"/>
-	<polygon id="巴哈马" class="st1" points="1790,471 1818,471 1818,482 1790,482 	"/>
-	<polygon id="毛里求斯" class="st1" points="612,888 624,888 624,899 612,899 	"/>
-	<polygon id="摩纳哥" class="st1" points="319,358 331,358 331,369 319,369 	"/>
-	<polygon id="马尔代夫" class="st1" points="749,713 785,713 785,724 749,724 	"/>
-	<polygon id="塞班岛" class="st1" points="1213,619 1225,619 1225,630 1213,630 	"/>
-	<polygon id="东帝汶" class="st1" points="983,804 995,804 995,815 983,815 	"/>
-	<polygon id="梵蒂冈" class="st1" points="339,374 351,374 351,385 339,385 	"/>
-	<polygon id="圣马力诺" class="st1" points="357,352 369,352 369,363 357,363 	"/>
-	<polygon id="巴林" class="st1" points="590,503 602,503 602,514 590,514 	"/>
-	<polygon id="安道尔" class="st1" points="242,358 254,358 254,369 242,369 	"/>
-	<polygon id="文莱" class="st1" points="993,664 1005,664 1005,675 993,675 	"/>
-	<polygon id="塞舌尔" class="st1" points="605,760 616,760 616,771 605,771 	"/>
+	<polygon id="马耳他" class="st2" points="361,426 391,426 391,437 361,437 	"/>
+	<polygon id="塞浦路斯" class="st2" points="439,430 475,430 475,441 439,441 	"/>
+	<polygon id="卡塔尔" class="st2" points="590,517 618,517 618,528 590,528 	"/>
+	<polygon id="巴哈马" class="st2" points="1790,471 1818,471 1818,482 1790,482 	"/>
+	<polygon id="毛里求斯" class="st2" points="612,888 624,888 624,899 612,899 	"/>
+	<polygon id="摩纳哥" class="st2" points="319,358 331,358 331,369 319,369 	"/>
+	<polygon id="马尔代夫" class="st2" points="749,713 785,713 785,724 749,724 	"/>
+	<polygon id="塞班岛" class="st2" points="1213,619 1225,619 1225,630 1213,630 	"/>
+	<polygon id="东帝汶" class="st2" points="983,804 995,804 995,815 983,815 	"/>
+	<polygon id="梵蒂冈" class="st2" points="339,374 351,374 351,385 339,385 	"/>
+	<polygon id="圣马力诺" class="st2" points="357,352 369,352 369,363 357,363 	"/>
+	<polygon id="巴林" class="st2" points="590,503 602,503 602,514 590,514 	"/>
+	<polygon id="安道尔" class="st2" points="233,359 245,359 245,370 233,370 	"/>
+	<polygon id="文莱" class="st2" points="993,664 1005,664 1005,675 993,675 	"/>
+	<polygon id="塞舌尔" class="st3" points="605,760 616,760 616,771 605,771 	"/>
+	<polygon id="巴勒斯坦" class="st3" points="483.5,452.5 494.5,452.5 494.5,462.5 483.5,462.5 	"/>
 </g>
 <g id="标签">
-	<text transform="matrix(1 0 0 1 492 649)" class="st2 st3">吉布提</text>
-	<text transform="matrix(1 0 0 1 1653 628)" class="st2 st4">哥斯达</text>
-	<text transform="matrix(1 0 0 1 1653 639)" class="st2 st4">黎加</text>
-	<text transform="matrix(1 0 0 1 1634 610)" class="st2 st3">尼加拉</text>
-	<text transform="matrix(1 0 0 1 1634 622)" class="st2 st3">瓜</text>
-	<text transform="matrix(1 0 0 1 1616 593)" class="st2 st3">洪都拉</text>
-	<text transform="matrix(1 0 0 1 1616 605)" class="st2 st3">斯</text>
-	<text transform="matrix(1 0 0 1 1592 586)" class="st2 st5">萨尔</text>
-	<text transform="matrix(1 0 0 1 1592 594)" class="st2 st5">瓦多</text>
-	<text transform="matrix(1 0 0 1 1587 564)" class="st2 st3">危地马拉</text>
-	<text transform="matrix(1 0 0 1 1641 554)" class="st2 st3">伯利兹</text>
-	<text transform="matrix(1 0 0 1 1370 556)" class="st2 st6">夏威夷</text>
-	<text transform="matrix(1 0 0 1 1618 501)" class="st2 st6">墨西哥</text>
-	<text transform="matrix(1 0 0 1 1742 194)" class="st2 st6">加拿大</text>
-	<text transform="matrix(1 0 0 1 78 138)" class="st2 st6">格陵兰岛</text>
-	<text transform="matrix(1 0 0 1 1727 374)" class="st2 st6">美国</text>
-	<text transform="matrix(1 0 0 1 1780 516)" class="st2 st6">古巴</text>
-	<text transform="matrix(1 0 0 1 1793 551)" class="st2 st3">牙买加</text>
-	<text transform="matrix(1 0 0 1 1847 530)" class="st2 st3">海</text>
-	<text transform="matrix(1 0 0 1 1847 542)" class="st2 st3">地</text>
-	<text transform="matrix(1 0 0 1 1870 530)" class="st2 st3">多米</text>
-	<text transform="matrix(1 0 0 1 1870 542)" class="st2 st3">尼加</text>
-	<text transform="matrix(1 0 0 1 1915 553)" class="st2 st3">波多黎各</text>
-	<text transform="matrix(1 0 0 1 1893 666)" class="st2 st6">苏</text>
-	<text transform="matrix(1 0 0 1 1893 680)" class="st2 st6">里</text>
-	<text transform="matrix(1 0 0 1 1893 694)" class="st2 st6">南</text>
-	<text transform="matrix(1 0 0 1 940 577)" class="st2 st6">老挝</text>
-	<text transform="matrix(1 0 0 1 879 495)" class="st2 st4">不丹</text>
-	<text transform="matrix(1 0 0 1 982 604)" class="st2 st6">越</text>
-	<text transform="matrix(1 0 0 1 982 618)" class="st2 st6">南</text>
-	<text transform="matrix(1 0 0 1 894 573)" class="st2 st6">缅</text>
-	<text transform="matrix(1 0 0 1 894 587)" class="st2 st6">甸</text>
-	<text transform="matrix(1 0 0 1 920 613)" class="st2 st6">泰国</text>
-	<text transform="matrix(1 0 0 1 937 637)" class="st2 st3">柬埔寨</text>
-	<text transform="matrix(1 0 0 1 1160 753)" class="st2 st6">巴布亚</text>
-	<text transform="matrix(1 0 0 1 1160 767)" class="st2 st6">新几内亚</text>
-	<text transform="matrix(1 0 0 1 982 732)" class="st2 st6">印度尼西亚</text>
-	<text transform="matrix(1 0 0 1 964 692)" class="st2 st6">马来西亚</text>
-	<text transform="matrix(1 0 0 1 468 278)" class="st2 st6">白俄罗斯</text>
-	<text transform="matrix(1 0 0 1 505 321)" class="st2 st6">乌克兰</text>
-	<text transform="matrix(1 0 0 1 438 356)" class="st2 st3">罗马尼亚</text>
-	<text transform="matrix(1 0 0 1 436 380)" class="st2 st4">保加利亚</text>
-	<text transform="matrix(1 0 0 1 393 373)" class="st2 st5">黑</text>
-	<text transform="matrix(1 0 0 1 404 377)" class="st2 st5">科</text>
-	<text transform="matrix(1 0 0 1 414 382)" class="st2 st5">北马</text>
-	<text transform="matrix(1 0 0 1 414 390)" class="st2 st5">其顿</text>
-	<text transform="matrix(1 0 0 1 473 324)" class="st2 st4">摩尔</text>
-	<text transform="matrix(1 0 0 1 473 334)" class="st2 st4">多瓦</text>
-	<text transform="matrix(1 0 0 1 553 386)" class="st2 st5">亚美</text>
-	<text transform="matrix(1 0 0 1 553 394)" class="st2 st5">尼亚</text>
-	<text transform="matrix(1 0 0 1 549 374)" class="st2 st5">格鲁吉亚</text>
-	<text transform="matrix(1 0 0 1 574 396)" class="st2 st5">阿塞拜疆</text>
-	<text transform="matrix(1 0 0 1 542 475)" class="st2 st6">伊拉克</text>
-	<text transform="matrix(1 0 0 1 494 398)" class="st2 st6">土耳其</text>
-	<text transform="matrix(1 0 0 1 482 444)" class="st2 st5">黎巴嫩</text>
-	<text transform="matrix(1 0 0 1 482 458)" class="st2 st4">以</text>
-	<text transform="matrix(1 0 0 1 482 468)" class="st2 st4">色</text>
-	<text transform="matrix(1 0 0 1 482 478)" class="st2 st4">列</text>
-	<text transform="matrix(1 0 0 1 503 464)" class="st2 st3">约旦</text>
-	<text transform="matrix(1 0 0 1 564 497)" class="st2 st5">科威特</text>
-	<text transform="matrix(1 0 0 1 509 531)" class="st2 st6">沙特阿拉伯</text>
-	<text transform="matrix(1 0 0 1 544 604)" class="st2 st6">也门</text>
-	<text transform="matrix(1 0 0 1 396 971)" class="st2 st6">南非</text>
-	<text transform="matrix(1 0 0 1 604 582)" class="st2 st6">阿曼</text>
-	<text transform="matrix(1 0 0 1 593 548)" class="st2 st3">阿联酋</text>
-	<text transform="matrix(1 0 0 1 432 499)" class="st2 st6">埃及</text>
-	<text transform="matrix(1 0 0 1 347 499)" class="st2 st6">利比亚</text>
-	<text transform="matrix(1 0 0 1 328 442)" class="st2 st6">突</text>
-	<text transform="matrix(1 0 0 1 328 456)" class="st2 st6">尼</text>
-	<text transform="matrix(1 0 0 1 328 470)" class="st2 st6">斯</text>
-	<text transform="matrix(1 0 0 1 429 585)" class="st2 st6">苏</text>
-	<text transform="matrix(1 0 0 1 429 599)" class="st2 st6">丹</text>
-	<text transform="matrix(1 0 0 1 427 652)" class="st2 st6">南</text>
-	<text transform="matrix(1 0 0 1 427 666)" class="st2 st6">苏</text>
-	<text transform="matrix(1 0 0 1 427 680)" class="st2 st6">丹</text>
-	<text transform="matrix(1 0 0 1 363 597)" class="st2 st6">查</text>
-	<text transform="matrix(1 0 0 1 363 611)" class="st2 st6">得</text>
-	<text transform="matrix(1 0 0 1 137 505)" class="st2 st6">西</text>
-	<text transform="matrix(1 0 0 1 137 519)" class="st2 st6">撒</text>
-	<text transform="matrix(1 0 0 1 137 533)" class="st2 st6">哈</text>
-	<text transform="matrix(1 0 0 1 137 547)" class="st2 st6">拉</text>
-	<text transform="matrix(1 0 0 1 136 447)" class="st2 st6">摩</text>
-	<text transform="matrix(1 0 0 1 136 461)" class="st2 st6">洛</text>
-	<text transform="matrix(1 0 0 1 136 475)" class="st2 st6">哥</text>
-	<text transform="matrix(1 0 0 1 399 729)" class="st2 st6">民</text>
-	<text transform="matrix(1 0 0 1 399 743)" class="st2 st6">主</text>
-	<text transform="matrix(1 0 0 1 399 757)" class="st2 st6">共</text>
-	<text transform="matrix(1 0 0 1 399 771)" class="st2 st6">和</text>
-	<text transform="matrix(1 0 0 1 399 785)" class="st2 st6">国</text>
-	<text transform="matrix(1 0 0 1 380 729)" class="st2 st6">刚</text>
-	<text transform="matrix(1 0 0 1 380 743)" class="st2 st6">果</text>
-	<text transform="matrix(1 0 0 1 350 736)" class="st2 st6">刚</text>
-	<text transform="matrix(1 0 0 1 350 751)" class="st2 st6">果</text>
-	<text transform="matrix(1 0 0 1 288 651)" class="st2 st6">尼</text>
-	<text transform="matrix(1 0 0 1 288 665)" class="st2 st6">日</text>
-	<text transform="matrix(1 0 0 1 288 679)" class="st2 st6">利</text>
-	<text transform="matrix(1 0 0 1 288 693)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 321 671)" class="st2 st6">喀</text>
-	<text transform="matrix(1 0 0 1 321 685)" class="st2 st6">麦</text>
-	<text transform="matrix(1 0 0 1 321 699)" class="st2 st6">隆</text>
-	<text transform="matrix(1 0 0 1 432 707)" class="st2 st6">乌</text>
-	<text transform="matrix(1 0 0 1 432 721)" class="st2 st6">干</text>
-	<text transform="matrix(1 0 0 1 432 735)" class="st2 st6">达</text>
-	<text transform="matrix(1 0 0 1 465 773)" class="st2 st6">坦</text>
-	<text transform="matrix(1 0 0 1 465 787)" class="st2 st6">桑</text>
-	<text transform="matrix(1 0 0 1 465 801)" class="st2 st6">尼</text>
-	<text transform="matrix(1 0 0 1 465 815)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 462 865)" class="st2 st6">莫</text>
-	<text transform="matrix(1 0 0 1 462 879)" class="st2 st6">桑</text>
-	<text transform="matrix(1 0 0 1 462 893)" class="st2 st6">比</text>
-	<text transform="matrix(1 0 0 1 462 907)" class="st2 st6">克</text>
-	<text transform="matrix(1 0 0 1 427 873)" class="st2 st6">津</text>
-	<text transform="matrix(1 0 0 1 427 886)" class="st2 st6">巴</text>
-	<text transform="matrix(1 0 0 1 427 899)" class="st2 st6">布</text>
-	<text transform="matrix(1 0 0 1 427 912)" class="st2 st6">韦</text>
-	<text transform="matrix(1 0 0 1 346 893)" class="st2 st6">纳</text>
-	<text transform="matrix(1 0 0 1 346 907)" class="st2 st6">米</text>
-	<text transform="matrix(1 0 0 1 346 921)" class="st2 st6">比</text>
-	<text transform="matrix(1 0 0 1 346 935)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 383 893)" class="st2 st6">博茨</text>
-	<text transform="matrix(1 0 0 1 383 907)" class="st2 st6">瓦纳</text>
-	<text transform="matrix(1 0 0 1 469 704)" class="st2 st6">肯</text>
-	<text transform="matrix(1 0 0 1 469 718)" class="st2 st6">尼</text>
-	<text transform="matrix(1 0 0 1 469 732)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 260 659)" class="st2 st6">贝</text>
-	<text transform="matrix(1 0 0 1 260 673)" class="st2 st6">宁</text>
-	<text transform="matrix(1 0 0 1 223 660)" class="st2 st6">加</text>
-	<text transform="matrix(1 0 0 1 223 674)" class="st2 st6">纳</text>
-	<text transform="matrix(1 0 0 1 240 660)" class="st2 st6">多</text>
-	<text transform="matrix(1 0 0 1 240 674)" class="st2 st6">哥</text>
-	<text transform="matrix(1 0 0 1 200 642)" class="st2 st6">科</text>
-	<text transform="matrix(1 0 0 1 200 656)" class="st2 st6">特</text>
-	<text transform="matrix(1 0 0 1 200 670)" class="st2 st6">迪</text>
-	<text transform="matrix(1 0 0 1 200 684)" class="st2 st6">瓦</text>
-	<text transform="matrix(1 0 0 1 279 591)" class="st2 st6">尼日尔</text>
-	<text transform="matrix(1 0 0 1 334 824)" class="st2 st6">安哥拉</text>
-	<text transform="matrix(1 0 0 1 400 836)" class="st2 st6">赞比亚</text>
-	<text transform="matrix(1 0 0 1 449 836)" class="st2 st3">马</text>
-	<text transform="matrix(1 0 0 1 456 935)" class="st2 st3">斯</text>
-	<text transform="matrix(1 0 0 1 439 956)" class="st2 st3">莱</text>
-	<text transform="matrix(1 0 0 1 214 589)" class="st2 st6">马里</text>
-	<text transform="matrix(1 0 0 1 142 663)" class="st2 st4">塞拉</text>
-	<text transform="matrix(1 0 0 1 142 673)" class="st2 st4">利昂</text>
-	<text transform="matrix(1 0 0 1 168 681)" class="st2 st4">利比</text>
-	<text transform="matrix(1 0 0 1 168 691)" class="st2 st4">里亚</text>
-	<text transform="matrix(1 0 0 1 160 613)" class="st2 st4">塞内</text>
-	<text transform="matrix(1 0 0 1 160 623)" class="st2 st4">加尔</text>
-	<text transform="matrix(1 0 0 1 132 618)" class="st2 st5">冈比亚</text>
-	<text transform="matrix(1 0 0 1 159 646)" class="st2 st4">几内亚</text>
-	<text transform="matrix(1 0 0 1 128 635)" class="st2 st5">几内亚</text>
-	<text transform="matrix(1 0 0 1 132 643)" class="st2 st5">比索</text>
-	<text transform="matrix(1 0 0 1 147 581)" class="st2 st6">毛里塔</text>
-	<text transform="matrix(1 0 0 1 154 595)" class="st2 st6">尼亚</text>
-	<text transform="matrix(1 0 0 1 361 678)" class="st2 st6">中非</text>
-	<text transform="matrix(1 0 0 1 315 752)" class="st2 st6">加蓬</text>
-	<text transform="matrix(1 0 0 1 425 750)" class="st2 st4">卢旺达</text>
-	<text transform="matrix(1 0 0 1 425 764)" class="st2 st4">布隆迪</text>
-	<text transform="matrix(1 0 0 1 315 732)" class="st2 st3">赤</text>
-	<text transform="matrix(1 0 0 1 224 618)" class="st2 st4">布基纳</text>
-	<text transform="matrix(1 0 0 1 229 629)" class="st2 st4">法索</text>
-	<text transform="matrix(1 0 0 1 519 676)" class="st2 st6">索</text>
-	<text transform="matrix(1 0 0 1 519 690)" class="st2 st6">马</text>
-	<text transform="matrix(1 0 0 1 519 704)" class="st2 st6">里</text>
-	<text transform="matrix(1 0 0 1 470 627)" class="st2 st6">埃</text>
-	<text transform="matrix(1 0 0 1 470 641)" class="st2 st6">塞</text>
-	<text transform="matrix(1 0 0 1 470 655)" class="st2 st6">俄</text>
-	<text transform="matrix(1 0 0 1 470 669)" class="st2 st6">比</text>
-	<text transform="matrix(1 0 0 1 470 683)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 618 460)" class="st2 st6">伊朗</text>
-	<text transform="matrix(1 0 0 1 510 132)" class="st2 st6">芬</text>
-	<text transform="matrix(1 0 0 1 510 146)" class="st2 st6">兰</text>
-	<text transform="matrix(1 0 0 1 415 145)" class="st2 st6">瑞</text>
-	<text transform="matrix(1 0 0 1 415 159)" class="st2 st6">典</text>
-	<text transform="matrix(1 0 0 1 355 134)" class="st2 st6">挪威</text>
-	<text transform="matrix(1 0 0 1 226 145)" class="st2 st6">冰岛</text>
-	<text transform="matrix(1 0 0 1 282 172)" class="st2 st4">法罗群岛</text>
-	<text transform="matrix(1 0 0 1 286 256)" class="st2 st6">英国</text>
-	<text transform="matrix(1 0 0 1 280 342)" class="st2 st6">法国</text>
-	<text transform="matrix(1 0 0 1 369 278)" class="st2 st6">德国</text>
-	<text transform="matrix(1 0 0 1 335 269)" class="st2 st3">荷兰</text>
-	<text transform="matrix(1 0 0 1 330 294)" class="st2 st3">比利时</text>
-	<text transform="matrix(1 0 0 1 334 308)" class="st2 st5">卢森堡</text>
-	<text transform="matrix(1 0 0 1 368 240)" class="st2 st4">丹麦</text>
-	<text transform="matrix(1 0 0 1 417 284)" class="st2 st6">波兰</text>
-	<text transform="matrix(1 0 0 1 197 390)" class="st2 st6">西班牙</text>
-	<text transform="matrix(1 0 0 1 162 377)" class="st2 st6">葡</text>
-	<text transform="matrix(1 0 0 1 162 391)" class="st2 st6">萄</text>
-	<text transform="matrix(1 0 0 1 162 405)" class="st2 st6">牙</text>
-	<text transform="matrix(1 0 0 1 356 381)" class="st2 st6">意</text>
-	<text transform="matrix(1 0 0 1 356 395)" class="st2 st6">大</text>
-	<text transform="matrix(1 0 0 1 356 409)" class="st2 st6">利</text>
-	<text transform="matrix(1 0 0 1 511 437)" class="st2 st6">叙利亚</text>
-	<text transform="matrix(1 0 0 1 398 389)" class="st2 st5">阿</text>
-	<text transform="matrix(1 0 0 1 398 397)" class="st2 st5">尔</text>
-	<text transform="matrix(1 0 0 1 415 406)" class="st2 st3">希</text>
-	<text transform="matrix(1 0 0 1 415 418)" class="st2 st3">腊</text>
-	<text transform="matrix(1 0 0 1 396 362)" class="st2 st5">波赫</text>
-	<text transform="matrix(1 0 0 1 369 327)" class="st2 st4">奥地利</text>
-	<text transform="matrix(1 0 0 1 413 312)" class="st2 st5">斯洛伐克</text>
-	<text transform="matrix(1 0 0 1 359 333)" class="st2 st5">列</text>
-	<text transform="matrix(1 0 0 1 259 268.0314)" class="st2 st5">马</text>
-	<text transform="matrix(1 0 0 1 392 340)" class="st2 st5">斯</text>
-	<text transform="matrix(1 0 0 1 392 351)" class="st2 st5">克罗</text>
-	<text transform="matrix(1 0 0 1 420 346)" class="st2 st5">塞</text>
-	<text transform="matrix(1 0 0 1 420 354)" class="st2 st5">尔</text>
-	<text transform="matrix(1 0 0 1 420 362)" class="st2 st5">维</text>
-	<text transform="matrix(1 0 0 1 420 370)" class="st2 st5">亚</text>
-	<text transform="matrix(1 0 0 1 406 331)" class="st2 st3">匈牙利</text>
-	<text transform="matrix(1 0 0 1 385 303)" class="st2 st4">捷克</text>
-	<text transform="matrix(1 0 0 1 209 499)" class="st2 st6">阿尔及利亚</text>
-	<text transform="matrix(1 0 0 1 204 273)" class="st2 st6">爱尔兰</text>
-	<text transform="matrix(1 0 0 1 243 248)" class="st2 st4">北</text>
-	<text transform="matrix(1 0 0 1 468 212)" class="st2 st3">爱沙尼亚</text>
-	<text transform="matrix(1 0 0 1 441 256)" class="st2 st3">立陶宛</text>
-	<text transform="matrix(1 0 0 1 461 238)" class="st2 st6">拉脱维亚</text>
-	<text transform="matrix(1 0 0 1 910 182)" class="st2 st6">俄罗斯</text>
-	<text transform="matrix(1 0 0 1 942 346)" class="st2 st6">蒙古</text>
-	<text transform="matrix(1 0 0 1 939 459)" class="st2 st6">中国</text>
-	<text transform="matrix(1 0 0 1 780 568)" class="st2 st6">印度</text>
-	<text transform="matrix(1 0 0 1 827 493)" class="st2 st6">尼泊尔</text>
-	<text transform="matrix(1 0 0 1 815 657)" class="st2 st4">斯</text>
-	<text transform="matrix(1 0 0 1 815 667)" class="st2 st4">里</text>
-	<text transform="matrix(1 0 0 1 815 677)" class="st2 st4">兰</text>
-	<text transform="matrix(1 0 0 1 815 687)" class="st2 st4">卡</text>
-	<text transform="matrix(1 0 0 1 917 717)" class="st2 st5">新加坡</text>
-	<text transform="matrix(1 0 0 1 849 528)" class="st2 st6">孟加拉</text>
-	<text transform="matrix(1 0 0 1 681 502)" class="st2 st6">巴基斯坦</text>
-	<text transform="matrix(1 0 0 1 681 447)" class="st2 st6">阿富汗</text>
-	<text transform="matrix(1 0 0 1 644 402)" class="st2 st6">土库曼</text>
-	<text transform="matrix(1 0 0 1 743 414)" class="st2 st6">塔吉克</text>
-	<text transform="matrix(1 0 0 1 681 369)" class="st2 st6">乌兹别克</text>
-	<text transform="matrix(1 0 0 1 712 314)" class="st2 st6">哈萨克</text>
-	<text transform="matrix(1 0 0 1 752 387)" class="st2 st6">吉尔吉斯</text>
-	<text transform="matrix(1 0 0 1 1106 401)" class="st2 st6">朝鲜</text>
-	<text transform="matrix(1 0 0 1 1215 410)" class="st2 st6">日本</text>
-	<text transform="matrix(1 0 0 1 1062 633)" class="st2 st6">菲律宾</text>
-	<text transform="matrix(1 0 0 1 1109 924)" class="st2 st6">澳洲</text>
-	<text transform="matrix(1 0 0 1 751 1107)" class="st2 st6">南极</text>
-	<text transform="matrix(1 0 0 1 553 851)" class="st2 st6">马</text>
-	<text transform="matrix(1 0 0 1 553 865)" class="st2 st6">达</text>
-	<text transform="matrix(1 0 0 1 553 879)" class="st2 st6">加</text>
-	<text transform="matrix(1 0 0 1 553 893)" class="st2 st6">斯</text>
-	<text transform="matrix(1 0 0 1 553 907)" class="st2 st6">加</text>
-	<text transform="matrix(1 0 0 1 553 921)" class="st2 st6">岛</text>
-	<text transform="matrix(1 0 0 1 1282 1036)" class="st2 st6">新</text>
-	<text transform="matrix(1 0 0 1 1282 1050)" class="st2 st6">西</text>
-	<text transform="matrix(1 0 0 1 1282 1064)" class="st2 st6">兰</text>
-	<text transform="matrix(1 0 0 1 1364 867)" class="st2 st6">斐</text>
-	<text transform="matrix(1 0 0 1 1364 881)" class="st2 st6">济</text>
-	<text transform="matrix(1 0 0 1 1273 853)" class="st2 st6">瓦努</text>
-	<text transform="matrix(1 0 0 1 1273 867)" class="st2 st6">阿图</text>
-	<text transform="matrix(1 0 0 1 1282 777)" class="st2 st6">所罗门</text>
-	<text transform="matrix(1 0 0 1 1668 806)" class="st2 st6">秘鲁</text>
-	<text transform="matrix(1 0 0 1 1688 712)" class="st2 st6">厄瓜</text>
-	<text transform="matrix(1 0 0 1 1688 726)" class="st2 st6">多尔</text>
-	<text transform="matrix(1 0 0 1 1678 648)" class="st2 st6">巴拿马</text>
-	<text transform="matrix(1 0 0 1 1742 677)" class="st2 st6">哥</text>
-	<text transform="matrix(1 0 0 1 1742 691)" class="st2 st6">伦</text>
-	<text transform="matrix(1 0 0 1 1742 705)" class="st2 st6">比</text>
-	<text transform="matrix(1 0 0 1 1742 719)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 1785 666)" class="st2 st6">委内瑞拉</text>
-	<text transform="matrix(1 0 0 1 1859 666)" class="st2 st6">圭</text>
-	<text transform="matrix(1 0 0 1 1859 680)" class="st2 st6">亚</text>
-	<text transform="matrix(1 0 0 1 1859 694)" class="st2 st6">那</text>
-	<text transform="matrix(1 0 0 1 1924 680)" class="st2 st6">圭</text>
-	<text transform="matrix(1 0 0 1 1875 809)" class="st2 st6">巴西</text>
-	<text transform="matrix(1 0 0 1 1748 1019)" class="st2 st6">阿根廷</text>
-	<text transform="matrix(1 0 0 1 1702 1023)" class="st2 st6">智</text>
-	<text transform="matrix(1 0 0 1 1702 1037)" class="st2 st6">利</text>
-	<text transform="matrix(1 0 0 1 1831 1000)" class="st2 st6">乌</text>
-	<text transform="matrix(1 0 0 1 1831 1014)" class="st2 st6">拉</text>
-	<text transform="matrix(1 0 0 1 1831 1028)" class="st2 st6">圭</text>
-	<text transform="matrix(1 0 0 1 1812 885)" class="st2 st6">巴</text>
-	<text transform="matrix(1 0 0 1 1812 899)" class="st2 st6">拉</text>
-	<text transform="matrix(1 0 0 1 1812 913)" class="st2 st6">圭</text>
-	<text transform="matrix(1 0 0 1 1752 835)" class="st2 st6">玻利维亚</text>
-	<text transform="matrix(1 0 0 1 1122 429)" class="st2 st6">韩</text>
-	<text transform="matrix(1 0 0 1 1122 443)" class="st2 st6">国</text>
-	<text transform="matrix(1 0 0 1 331 336)" class="st2 st4">瑞士</text>
-	<text transform="matrix(1 0 0 1 364 434)" class="st2 st5">马耳他</text>
-	<text transform="matrix(1 0 0 1 592 525)" class="st2 st5">卡塔尔</text>
-	<text transform="matrix(1 0 0 1 614 896)" class="st2 st5">毛</text>
-	<text transform="matrix(1 0 0 1 606.4998 767.9315)" class="st2 st5">塞</text>
-	<text transform="matrix(1 0 0 1 321 366)" class="st2 st5">摩</text>
-	<text transform="matrix(1 0 0 1 244 366)" class="st2 st5">安</text>
-	<text transform="matrix(1 0 0 1 359 360)" class="st2 st5">圣</text>
-	<text transform="matrix(1 0 0 1 341 382)" class="st2 st5">梵</text>
-	<text transform="matrix(1 0 0 1 441 438)" class="st2 st5">塞浦路斯</text>
-	<text transform="matrix(1 0 0 1 1792 479)" class="st2 st5">巴哈马</text>
-	<text transform="matrix(1 0 0 1 985 812)" class="st2 st5">东</text>
-	<text transform="matrix(1 0 0 1 995 672)" class="st2 st5">文</text>
-	<text transform="matrix(1 0 0 1 592 511)" class="st2 st5">巴</text>
-	<text transform="matrix(1 0 0 1 751 721)" class="st2 st5">马尔代夫</text>
-	<text transform="matrix(1 0 0 1 1215 627)" class="st2 st5">塞</text>
+	<text transform="matrix(1 0 0 1 492 649)" class="st4 st5">吉布提</text>
+	<text transform="matrix(1 0 0 1 1653 628)" class="st4 st6">哥斯达</text>
+	<text transform="matrix(1 0 0 1 1653 639)" class="st4 st6">黎加</text>
+	<text transform="matrix(1 0 0 1 1634 610)" class="st4 st5">尼加拉</text>
+	<text transform="matrix(1 0 0 1 1634 622)" class="st4 st5">瓜</text>
+	<text transform="matrix(1 0 0 1 1616 593)" class="st4 st5">洪都拉</text>
+	<text transform="matrix(1 0 0 1 1616 605)" class="st4 st5">斯</text>
+	<text transform="matrix(1 0 0 1 1592 586)" class="st4 st7">萨尔</text>
+	<text transform="matrix(1 0 0 1 1592 594)" class="st4 st7">瓦多</text>
+	<text transform="matrix(1 0 0 1 1587 564)" class="st4 st5">危地马拉</text>
+	<text transform="matrix(1 0 0 1 1641 554)" class="st4 st5">伯利兹</text>
+	<text transform="matrix(1 0 0 1 1370 556)" class="st4 st8">夏威夷</text>
+	<text transform="matrix(1 0 0 1 1618 501)" class="st4 st8">墨西哥</text>
+	<text transform="matrix(1 0 0 1 1742 194)" class="st4 st8">加拿大</text>
+	<text transform="matrix(1 0 0 1 78 138)" class="st4 st8">格陵兰岛</text>
+	<text transform="matrix(1 0 0 1 1727 374)" class="st4 st8">美国</text>
+	<text transform="matrix(1 0 0 1 1780 516)" class="st4 st8">古巴</text>
+	<text transform="matrix(1 0 0 1 1793 551)" class="st4 st5">牙买加</text>
+	<text transform="matrix(1 0 0 1 1847 530)" class="st4 st5">海</text>
+	<text transform="matrix(1 0 0 1 1847 542)" class="st4 st5">地</text>
+	<text transform="matrix(1 0 0 1 1870 530)" class="st4 st5">多米</text>
+	<text transform="matrix(1 0 0 1 1870 542)" class="st4 st5">尼加</text>
+	<text transform="matrix(1 0 0 1 1915 553)" class="st4 st5">波多黎各</text>
+	<text transform="matrix(1 0 0 1 1893 666)" class="st4 st8">苏</text>
+	<text transform="matrix(1 0 0 1 1893 680)" class="st4 st8">里</text>
+	<text transform="matrix(1 0 0 1 1893 694)" class="st4 st8">南</text>
+	<text transform="matrix(1 0 0 1 940 577)" class="st4 st8">老挝</text>
+	<text transform="matrix(1 0 0 1 879 495)" class="st4 st6">不丹</text>
+	<text transform="matrix(1 0 0 1 982 604)" class="st4 st8">越</text>
+	<text transform="matrix(1 0 0 1 982 618)" class="st4 st8">南</text>
+	<text transform="matrix(1 0 0 1 894 573)" class="st4 st8">缅</text>
+	<text transform="matrix(1 0 0 1 894 587)" class="st4 st8">甸</text>
+	<text transform="matrix(1 0 0 1 920 613)" class="st4 st8">泰国</text>
+	<text transform="matrix(1 0 0 1 937 637)" class="st4 st5">柬埔寨</text>
+	<text transform="matrix(1 0 0 1 1160 753)" class="st4 st8">巴布亚</text>
+	<text transform="matrix(1 0 0 1 1160 767)" class="st4 st8">新几内亚</text>
+	<text transform="matrix(1 0 0 1 982 732)" class="st4 st8">印度尼西亚</text>
+	<text transform="matrix(1 0 0 1 964 692)" class="st4 st8">马来西亚</text>
+	<text transform="matrix(1 0 0 1 468 278)" class="st4 st8">白俄罗斯</text>
+	<text transform="matrix(1 0 0 1 505 321)" class="st4 st8">乌克兰</text>
+	<text transform="matrix(1 0 0 1 438 356)" class="st4 st5">罗马尼亚</text>
+	<text transform="matrix(1 0 0 1 436 380)" class="st4 st6">保加利亚</text>
+	<text transform="matrix(1 0 0 1 393 373)" class="st4 st7">黑</text>
+	<text transform="matrix(1 0 0 1 404 377)" class="st4 st7">科</text>
+	<text transform="matrix(1 0 0 1 414 382)" class="st4 st7">北马</text>
+	<text transform="matrix(1 0 0 1 414 390)" class="st4 st7">其顿</text>
+	<text transform="matrix(1 0 0 1 473 324)" class="st4 st6">摩尔</text>
+	<text transform="matrix(1 0 0 1 473 334)" class="st4 st6">多瓦</text>
+	<text transform="matrix(1 0 0 1 553 386)" class="st4 st7">亚美</text>
+	<text transform="matrix(1 0 0 1 553 394)" class="st4 st7">尼亚</text>
+	<text transform="matrix(1 0 0 1 549 374)" class="st4 st7">格鲁吉亚</text>
+	<text transform="matrix(1 0 0 1 574 396)" class="st4 st7">阿塞拜疆</text>
+	<text transform="matrix(1 0 0 1 542 475)" class="st4 st8">伊拉克</text>
+	<text transform="matrix(1 0 0 1 494 398)" class="st4 st8">土耳其</text>
+	<text transform="matrix(1 0 0 1 482 444)" class="st4 st7">黎巴嫩</text>
+	<text transform="matrix(1 0 0 1 482 473)" class="st4 st6">以</text>
+	<text transform="matrix(1 0 0 1 482 483)" class="st4 st6">色</text>
+	<text transform="matrix(1 0 0 1 482 493)" class="st4 st6">列</text>
+	<text transform="matrix(1 0 0 1 503 464)" class="st4 st5">约旦</text>
+	<text transform="matrix(1 0 0 1 564 497)" class="st4 st7">科威特</text>
+	<text transform="matrix(1 0 0 1 509 531)" class="st4 st8">沙特阿拉伯</text>
+	<text transform="matrix(1 0 0 1 544 604)" class="st4 st8">也门</text>
+	<text transform="matrix(1 0 0 1 396 971)" class="st4 st8">南非</text>
+	<text transform="matrix(1 0 0 1 604 582)" class="st4 st8">阿曼</text>
+	<text transform="matrix(1 0 0 1 593 548)" class="st4 st5">阿联酋</text>
+	<text transform="matrix(1 0 0 1 432 499)" class="st4 st8">埃及</text>
+	<text transform="matrix(1 0 0 1 347 499)" class="st4 st8">利比亚</text>
+	<text transform="matrix(1 0 0 1 328 442)" class="st4 st8">突</text>
+	<text transform="matrix(1 0 0 1 328 456)" class="st4 st8">尼</text>
+	<text transform="matrix(1 0 0 1 328 470)" class="st4 st8">斯</text>
+	<text transform="matrix(1 0 0 1 429 585)" class="st4 st8">苏</text>
+	<text transform="matrix(1 0 0 1 429 599)" class="st4 st8">丹</text>
+	<text transform="matrix(1 0 0 1 427 652)" class="st4 st8">南</text>
+	<text transform="matrix(1 0 0 1 427 666)" class="st4 st8">苏</text>
+	<text transform="matrix(1 0 0 1 427 680)" class="st4 st8">丹</text>
+	<text transform="matrix(1 0 0 1 363 597)" class="st4 st8">查</text>
+	<text transform="matrix(1 0 0 1 363 611)" class="st4 st8">得</text>
+	<text transform="matrix(1 0 0 1 137 505)" class="st4 st8">西</text>
+	<text transform="matrix(1 0 0 1 137 519)" class="st4 st8">撒</text>
+	<text transform="matrix(1 0 0 1 137 533)" class="st4 st8">哈</text>
+	<text transform="matrix(1 0 0 1 137 547)" class="st4 st8">拉</text>
+	<text transform="matrix(1 0 0 1 136 447)" class="st4 st8">摩</text>
+	<text transform="matrix(1 0 0 1 136 461)" class="st4 st8">洛</text>
+	<text transform="matrix(1 0 0 1 136 475)" class="st4 st8">哥</text>
+	<text transform="matrix(1 0 0 1 399 729)" class="st4 st8">民</text>
+	<text transform="matrix(1 0 0 1 399 743)" class="st4 st8">主</text>
+	<text transform="matrix(1 0 0 1 399 757)" class="st4 st8">共</text>
+	<text transform="matrix(1 0 0 1 399 771)" class="st4 st8">和</text>
+	<text transform="matrix(1 0 0 1 399 785)" class="st4 st8">国</text>
+	<text transform="matrix(1 0 0 1 380 729)" class="st4 st8">刚</text>
+	<text transform="matrix(1 0 0 1 380 743)" class="st4 st8">果</text>
+	<text transform="matrix(1 0 0 1 350 736)" class="st4 st8">刚</text>
+	<text transform="matrix(1 0 0 1 350 751)" class="st4 st8">果</text>
+	<text transform="matrix(1 0 0 1 288 651)" class="st4 st8">尼</text>
+	<text transform="matrix(1 0 0 1 288 665)" class="st4 st8">日</text>
+	<text transform="matrix(1 0 0 1 288 679)" class="st4 st8">利</text>
+	<text transform="matrix(1 0 0 1 288 693)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 321 671)" class="st4 st8">喀</text>
+	<text transform="matrix(1 0 0 1 321 685)" class="st4 st8">麦</text>
+	<text transform="matrix(1 0 0 1 321 699)" class="st4 st8">隆</text>
+	<text transform="matrix(1 0 0 1 432 707)" class="st4 st8">乌</text>
+	<text transform="matrix(1 0 0 1 432 721)" class="st4 st8">干</text>
+	<text transform="matrix(1 0 0 1 432 735)" class="st4 st8">达</text>
+	<text transform="matrix(1 0 0 1 465 773)" class="st4 st8">坦</text>
+	<text transform="matrix(1 0 0 1 465 787)" class="st4 st8">桑</text>
+	<text transform="matrix(1 0 0 1 465 801)" class="st4 st8">尼</text>
+	<text transform="matrix(1 0 0 1 465 815)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 462 865)" class="st4 st8">莫</text>
+	<text transform="matrix(1 0 0 1 462 879)" class="st4 st8">桑</text>
+	<text transform="matrix(1 0 0 1 462 893)" class="st4 st8">比</text>
+	<text transform="matrix(1 0 0 1 462 907)" class="st4 st8">克</text>
+	<text transform="matrix(1 0 0 1 427 873)" class="st4 st8">津</text>
+	<text transform="matrix(1 0 0 1 427 886)" class="st4 st8">巴</text>
+	<text transform="matrix(1 0 0 1 427 899)" class="st4 st8">布</text>
+	<text transform="matrix(1 0 0 1 427 912)" class="st4 st8">韦</text>
+	<text transform="matrix(1 0 0 1 346 893)" class="st4 st8">纳</text>
+	<text transform="matrix(1 0 0 1 346 907)" class="st4 st8">米</text>
+	<text transform="matrix(1 0 0 1 346 921)" class="st4 st8">比</text>
+	<text transform="matrix(1 0 0 1 346 935)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 383 893)" class="st4 st8">博茨</text>
+	<text transform="matrix(1 0 0 1 383 907)" class="st4 st8">瓦纳</text>
+	<text transform="matrix(1 0 0 1 469 704)" class="st4 st8">肯</text>
+	<text transform="matrix(1 0 0 1 469 718)" class="st4 st8">尼</text>
+	<text transform="matrix(1 0 0 1 469 732)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 260 659)" class="st4 st8">贝</text>
+	<text transform="matrix(1 0 0 1 260 673)" class="st4 st8">宁</text>
+	<text transform="matrix(1 0 0 1 223 660)" class="st4 st8">加</text>
+	<text transform="matrix(1 0 0 1 223 674)" class="st4 st8">纳</text>
+	<text transform="matrix(1 0 0 1 240 660)" class="st4 st8">多</text>
+	<text transform="matrix(1 0 0 1 240 674)" class="st4 st8">哥</text>
+	<text transform="matrix(1 0 0 1 200 642)" class="st4 st8">科</text>
+	<text transform="matrix(1 0 0 1 200 656)" class="st4 st8">特</text>
+	<text transform="matrix(1 0 0 1 200 670)" class="st4 st8">迪</text>
+	<text transform="matrix(1 0 0 1 200 684)" class="st4 st8">瓦</text>
+	<text transform="matrix(1 0 0 1 279 591)" class="st4 st8">尼日尔</text>
+	<text transform="matrix(1 0 0 1 334 824)" class="st4 st8">安哥拉</text>
+	<text transform="matrix(1 0 0 1 400 836)" class="st4 st8">赞比亚</text>
+	<text transform="matrix(1 0 0 1 449 836)" class="st4 st5">马</text>
+	<text transform="matrix(1 0 0 1 456 935)" class="st4 st5">斯</text>
+	<text transform="matrix(1 0 0 1 439 956)" class="st4 st5">莱</text>
+	<text transform="matrix(1 0 0 1 214 589)" class="st4 st8">马里</text>
+	<text transform="matrix(1 0 0 1 142 663)" class="st4 st6">塞拉</text>
+	<text transform="matrix(1 0 0 1 142 673)" class="st4 st6">利昂</text>
+	<text transform="matrix(1 0 0 1 168 681)" class="st4 st6">利比</text>
+	<text transform="matrix(1 0 0 1 168 691)" class="st4 st6">里亚</text>
+	<text transform="matrix(1 0 0 1 160 613)" class="st4 st6">塞内</text>
+	<text transform="matrix(1 0 0 1 160 623)" class="st4 st6">加尔</text>
+	<text transform="matrix(1 0 0 1 132 618)" class="st4 st7">冈比亚</text>
+	<text transform="matrix(1 0 0 1 159 646)" class="st4 st6">几内亚</text>
+	<text transform="matrix(1 0 0 1 128 635)" class="st4 st7">几内亚</text>
+	<text transform="matrix(1 0 0 1 132 643)" class="st4 st7">比索</text>
+	<text transform="matrix(1 0 0 1 147 581)" class="st4 st8">毛里塔</text>
+	<text transform="matrix(1 0 0 1 154 595)" class="st4 st8">尼亚</text>
+	<text transform="matrix(1 0 0 1 361 678)" class="st4 st8">中非</text>
+	<text transform="matrix(1 0 0 1 315 752)" class="st4 st8">加蓬</text>
+	<text transform="matrix(1 0 0 1 425 750)" class="st4 st6">卢旺达</text>
+	<text transform="matrix(1 0 0 1 425 764)" class="st4 st6">布隆迪</text>
+	<text transform="matrix(1 0 0 1 315 732)" class="st4 st5">赤</text>
+	<text transform="matrix(1 0 0 1 224 618)" class="st4 st6">布基纳</text>
+	<text transform="matrix(1 0 0 1 229 629)" class="st4 st6">法索</text>
+	<text transform="matrix(1 0 0 1 519 676)" class="st4 st8">索</text>
+	<text transform="matrix(1 0 0 1 519 690)" class="st4 st8">马</text>
+	<text transform="matrix(1 0 0 1 519 704)" class="st4 st8">里</text>
+	<text transform="matrix(1 0 0 1 470 627)" class="st4 st8">埃</text>
+	<text transform="matrix(1 0 0 1 470 641)" class="st4 st8">塞</text>
+	<text transform="matrix(1 0 0 1 470 655)" class="st4 st8">俄</text>
+	<text transform="matrix(1 0 0 1 470 669)" class="st4 st8">比</text>
+	<text transform="matrix(1 0 0 1 470 683)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 618 460)" class="st4 st8">伊朗</text>
+	<text transform="matrix(1 0 0 1 510 132)" class="st4 st8">芬</text>
+	<text transform="matrix(1 0 0 1 510 146)" class="st4 st8">兰</text>
+	<text transform="matrix(1 0 0 1 415 145)" class="st4 st8">瑞</text>
+	<text transform="matrix(1 0 0 1 415 159)" class="st4 st8">典</text>
+	<text transform="matrix(1 0 0 1 355 134)" class="st4 st8">挪威</text>
+	<text transform="matrix(1 0 0 1 226 145)" class="st4 st8">冰岛</text>
+	<text transform="matrix(1 0 0 1 282 172)" class="st4 st6">法罗群岛</text>
+	<text transform="matrix(1 0 0 1 277 255)" class="st4 st8">英国</text>
+	<text transform="matrix(1 0 0 1 271 341)" class="st4 st8">法国</text>
+	<text transform="matrix(1 0 0 1 369 278)" class="st4 st8">德国</text>
+	<text transform="matrix(1 0 0 1 335 269)" class="st4 st5">荷兰</text>
+	<text transform="matrix(1 0 0 1 330 294)" class="st4 st5">比利时</text>
+	<text transform="matrix(1 0 0 1 334 308)" class="st4 st7">卢森堡</text>
+	<text transform="matrix(1 0 0 1 368 240)" class="st4 st6">丹麦</text>
+	<text transform="matrix(1 0 0 1 417 284)" class="st4 st8">波兰</text>
+	<text transform="matrix(1 0 0 1 188 390)" class="st4 st8">西班牙</text>
+	<text transform="matrix(1 0 0 1 153 377)" class="st4 st8">葡</text>
+	<text transform="matrix(1 0 0 1 153 391)" class="st4 st8">萄</text>
+	<text transform="matrix(1 0 0 1 153 405)" class="st4 st8">牙</text>
+	<text transform="matrix(1 0 0 1 356 381)" class="st4 st8">意</text>
+	<text transform="matrix(1 0 0 1 356 395)" class="st4 st8">大</text>
+	<text transform="matrix(1 0 0 1 356 409)" class="st4 st8">利</text>
+	<text transform="matrix(1 0 0 1 511 436)" class="st4 st8">叙利亚</text>
+	<text transform="matrix(1 0 0 1 398 389)" class="st4 st7">阿</text>
+	<text transform="matrix(1 0 0 1 398 397)" class="st4 st7">尔</text>
+	<text transform="matrix(1 0 0 1 415 406)" class="st4 st5">希</text>
+	<text transform="matrix(1 0 0 1 415 418)" class="st4 st5">腊</text>
+	<text transform="matrix(1 0 0 1 396 362)" class="st4 st7">波赫</text>
+	<text transform="matrix(1 0 0 1 369 325)" class="st4 st6">奥地利</text>
+	<text transform="matrix(1 0 0 1 413 312)" class="st4 st7">斯洛伐克</text>
+	<text transform="matrix(1 0 0 1 359 333)" class="st4 st7">列</text>
+	<text transform="matrix(1 0 0 1 250 268.0314)" class="st4 st7">马</text>
+	<text transform="matrix(1 0 0 1 392 340)" class="st4 st7">斯</text>
+	<text transform="matrix(1 0 0 1 392 351)" class="st4 st7">克罗</text>
+	<text transform="matrix(1 0 0 1 420 346)" class="st4 st7">塞</text>
+	<text transform="matrix(1 0 0 1 420 354)" class="st4 st7">尔</text>
+	<text transform="matrix(1 0 0 1 420 362)" class="st4 st7">维</text>
+	<text transform="matrix(1 0 0 1 420 370)" class="st4 st7">亚</text>
+	<text transform="matrix(1 0 0 1 406 331)" class="st4 st5">匈牙利</text>
+	<text transform="matrix(1 0 0 1 385 303)" class="st4 st6">捷克</text>
+	<text transform="matrix(1 0 0 1 209 499)" class="st4 st8">阿尔及利亚</text>
+	<text transform="matrix(1 0 0 1 195 273)" class="st4 st8">爱尔兰</text>
+	<text transform="matrix(1 0 0 1 234 248)" class="st4 st6">北</text>
+	<text transform="matrix(1 0 0 1 468 212)" class="st4 st5">爱沙尼亚</text>
+	<text transform="matrix(1 0 0 1 441 256)" class="st4 st5">立陶宛</text>
+	<text transform="matrix(1 0 0 1 461 238)" class="st4 st8">拉脱维亚</text>
+	<text transform="matrix(1 0 0 1 910 182)" class="st4 st8">俄罗斯</text>
+	<text transform="matrix(1 0 0 1 942 346)" class="st4 st8">蒙古</text>
+	<text transform="matrix(1 0 0 1 939 459)" class="st4 st8">中国</text>
+	<text transform="matrix(1 0 0 1 780 568)" class="st4 st8">印度</text>
+	<text transform="matrix(1 0 0 1 827 493)" class="st4 st8">尼泊尔</text>
+	<text transform="matrix(1 0 0 1 815 657)" class="st4 st6">斯</text>
+	<text transform="matrix(1 0 0 1 815 667)" class="st4 st6">里</text>
+	<text transform="matrix(1 0 0 1 815 677)" class="st4 st6">兰</text>
+	<text transform="matrix(1 0 0 1 815 687)" class="st4 st6">卡</text>
+	<text transform="matrix(1 0 0 1 917 717)" class="st4 st7">新加坡</text>
+	<text transform="matrix(1 0 0 1 849 528)" class="st4 st8">孟加拉</text>
+	<text transform="matrix(1 0 0 1 681 502)" class="st4 st8">巴基斯坦</text>
+	<text transform="matrix(1 0 0 1 681 447)" class="st4 st8">阿富汗</text>
+	<text transform="matrix(1 0 0 1 644 402)" class="st4 st8">土库曼</text>
+	<text transform="matrix(1 0 0 1 743 414)" class="st4 st8">塔吉克</text>
+	<text transform="matrix(1 0 0 1 681 369)" class="st4 st8">乌兹别克</text>
+	<text transform="matrix(1 0 0 1 712 314)" class="st4 st8">哈萨克</text>
+	<text transform="matrix(1 0 0 1 752 387)" class="st4 st8">吉尔吉斯</text>
+	<text transform="matrix(1 0 0 1 1106 401)" class="st4 st8">朝鲜</text>
+	<text transform="matrix(1 0 0 1 1215 410)" class="st4 st8">日本</text>
+	<text transform="matrix(1 0 0 1 1062 633)" class="st4 st8">菲律宾</text>
+	<text transform="matrix(1 0 0 1 1109 924)" class="st4 st8">澳洲</text>
+	<text transform="matrix(1 0 0 1 751 1107)" class="st4 st8">南极</text>
+	<text transform="matrix(1 0 0 1 553 851)" class="st4 st8">马</text>
+	<text transform="matrix(1 0 0 1 553 865)" class="st4 st8">达</text>
+	<text transform="matrix(1 0 0 1 553 879)" class="st4 st8">加</text>
+	<text transform="matrix(1 0 0 1 553 893)" class="st4 st8">斯</text>
+	<text transform="matrix(1 0 0 1 553 907)" class="st4 st8">加</text>
+	<text transform="matrix(1 0 0 1 553 921)" class="st4 st8">岛</text>
+	<text transform="matrix(1 0 0 1 1282 1036)" class="st4 st8">新</text>
+	<text transform="matrix(1 0 0 1 1282 1050)" class="st4 st8">西</text>
+	<text transform="matrix(1 0 0 1 1282 1064)" class="st4 st8">兰</text>
+	<text transform="matrix(1 0 0 1 1364 867)" class="st4 st8">斐</text>
+	<text transform="matrix(1 0 0 1 1364 881)" class="st4 st8">济</text>
+	<text transform="matrix(1 0 0 1 1273 853)" class="st4 st8">瓦努</text>
+	<text transform="matrix(1 0 0 1 1273 867)" class="st4 st8">阿图</text>
+	<text transform="matrix(1 0 0 1 1282 777)" class="st4 st8">所罗门</text>
+	<text transform="matrix(1 0 0 1 1668 806)" class="st4 st8">秘鲁</text>
+	<text transform="matrix(1 0 0 1 1688 712)" class="st4 st8">厄瓜</text>
+	<text transform="matrix(1 0 0 1 1688 726)" class="st4 st8">多尔</text>
+	<text transform="matrix(1 0 0 1 1678 648)" class="st4 st8">巴拿马</text>
+	<text transform="matrix(1 0 0 1 1742 677)" class="st4 st8">哥</text>
+	<text transform="matrix(1 0 0 1 1742 691)" class="st4 st8">伦</text>
+	<text transform="matrix(1 0 0 1 1742 705)" class="st4 st8">比</text>
+	<text transform="matrix(1 0 0 1 1742 719)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 1785 666)" class="st4 st8">委内瑞拉</text>
+	<text transform="matrix(1 0 0 1 1859 666)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1859 680)" class="st4 st8">亚</text>
+	<text transform="matrix(1 0 0 1 1859 694)" class="st4 st8">那</text>
+	<text transform="matrix(1 0 0 1 1924 680)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1875 809)" class="st4 st8">巴西</text>
+	<text transform="matrix(1 0 0 1 1748 1019)" class="st4 st8">阿根廷</text>
+	<text transform="matrix(1 0 0 1 1702 1023)" class="st4 st8">智</text>
+	<text transform="matrix(1 0 0 1 1702 1037)" class="st4 st8">利</text>
+	<text transform="matrix(1 0 0 1 1831 1000)" class="st4 st8">乌</text>
+	<text transform="matrix(1 0 0 1 1831 1014)" class="st4 st8">拉</text>
+	<text transform="matrix(1 0 0 1 1831 1028)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1812 885)" class="st4 st8">巴</text>
+	<text transform="matrix(1 0 0 1 1812 899)" class="st4 st8">拉</text>
+	<text transform="matrix(1 0 0 1 1812 913)" class="st4 st8">圭</text>
+	<text transform="matrix(1 0 0 1 1752 835)" class="st4 st8">玻利维亚</text>
+	<text transform="matrix(1 0 0 1 1122 429)" class="st4 st8">韩</text>
+	<text transform="matrix(1 0 0 1 1122 443)" class="st4 st8">国</text>
+	<text transform="matrix(1 0 0 1 331 336)" class="st4 st6">瑞士</text>
+	<text transform="matrix(1 0 0 1 364 434)" class="st4 st7">马耳他</text>
+	<text transform="matrix(1 0 0 1 592 525)" class="st4 st7">卡塔尔</text>
+	<text transform="matrix(1 0 0 1 614 896)" class="st4 st7">毛</text>
+	<text transform="matrix(1 0 0 1 606.4998 767.9315)" class="st4 st7">塞</text>
+	<text transform="matrix(1 0 0 1 321 366)" class="st4 st7">摩</text>
+	<text transform="matrix(1 0 0 1 235 367)" class="st4 st7">安</text>
+	<text transform="matrix(1 0 0 1 359 360)" class="st4 st7">圣</text>
+	<text transform="matrix(1 0 0 1 341 382)" class="st4 st7">梵</text>
+	<text transform="matrix(1 0 0 1 441 438)" class="st4 st7">塞浦路斯</text>
+	<text transform="matrix(1 0 0 1 1792 479)" class="st4 st7">巴哈马</text>
+	<text transform="matrix(1 0 0 1 985 812)" class="st4 st7">东</text>
+	<text transform="matrix(1 0 0 1 995 672)" class="st4 st7">文</text>
+	<text transform="matrix(1 0 0 1 592 511)" class="st4 st7">巴</text>
+	<text transform="matrix(1 0 0 1 751 721)" class="st4 st7">马尔代夫</text>
+	<text transform="matrix(1 0 0 1 1215 627)" class="st4 st7">塞</text>
+	<text transform="matrix(1 0 0 1 485 460)" class="st4 st7">巴</text>
 </g>
 <g id="等级">
 	<rect x="1455" y="955" class="st1" width="120" height="226"/>
-	<rect x="1456" y="956" class="st7" width="118" height="32"/>
-	<rect x="1456" y="988" class="st8" width="118" height="32"/>
-	<rect x="1456" y="1020" class="st9" width="118" height="32"/>
-	<rect x="1456" y="1052" class="st10" width="118" height="32"/>
-	<rect x="1456" y="1084" class="st11" width="118" height="32"/>
-	<rect x="1456" y="1116" class="st12" width="118" height="32"/>
-	<text transform="matrix(1 0 0 1 1488 978)" class="st2 st13">居住５</text>
-	<text transform="matrix(1 0 0 1 1488 1010)" class="st2 st13">短居４</text>
-	<text transform="matrix(1 0 0 1 1488 1042)" class="st2 st13">游玩３</text>
-	<text transform="matrix(1 0 0 1 1488 1074)" class="st2 st13">出差２</text>
-	<text transform="matrix(1 0 0 1 1488 1106)" class="st2 st13">路过１</text>
-	<text transform="matrix(1 0 0 1 1488 1138)" class="st2 st13">想要去</text>
-	<text transform="matrix(1 0 0 1 1488 1170)" class="st2 st13">没去过</text>
+	<rect x="1456" y="956" class="st9" width="118" height="32"/>
+	<rect x="1456" y="988" class="st10" width="118" height="32"/>
+	<rect x="1456" y="1020" class="st11" width="118" height="32"/>
+	<rect x="1456" y="1052" class="st12" width="118" height="32"/>
+	<rect x="1456" y="1084" class="st13" width="118" height="32"/>
+	<rect x="1456" y="1116" class="st14" width="118" height="32"/>
+	<text transform="matrix(1 0 0 1 1488 978)" class="st4 st15">居住５</text>
+	<text transform="matrix(1 0 0 1 1488 1010)" class="st4 st15">短居４</text>
+	<text transform="matrix(1 0 0 1 1488 1042)" class="st4 st15">游玩３</text>
+	<text transform="matrix(1 0 0 1 1488 1074)" class="st4 st15">出差２</text>
+	<text transform="matrix(1 0 0 1 1488 1106)" class="st4 st15">路过１</text>
+	<text transform="matrix(1 0 0 1 1488 1138)" class="st4 st15">想要去</text>
+	<text transform="matrix(1 0 0 1 1488 1170)" class="st4 st15">没去过</text>
 </g>
-<text id="全球制霸" transform="matrix(1 0 0 1 31 1184)" class="st2 st14">全球制霸·神奇海螺试验场</text>
-<text id="分数" transform="matrix(1 0 0 1 31 1136)" class="st2 st15">分数</text>
+<text id="全球制霸" transform="matrix(1 0 0 1 31 1184)" class="st4 st16">全球制霸·神奇海螺试验场</text>
+<text id="分数" transform="matrix(1 0 0 1 31 1136)" class="st4 st17">分数</text>
 </svg>
