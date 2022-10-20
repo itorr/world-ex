@@ -66,7 +66,7 @@
 	<rect id="秘鲁" x="1640" y="727" class="st1" width="107" height="152"/>
 	<rect id="厄瓜多尔" x="1683" y="687" class="st1" width="44" height="53"/>
 	<rect id="智利" x="1697" y="879" class="st1" width="45" height="302"/>
-	<rect id="格林兰岛" x="42" y="41" class="st1" width="127" height="186"/>
+	<rect id="格陵兰岛" x="42" y="41" class="st1" width="127" height="186"/>
 	<rect id="乌拉圭" x="1816" y="981" class="st1" width="42" height="57"/>
 	<polygon id="巴西" class="st1" points="1728,687 2006,687 2006,938 1881.6,938 1881.6,981 1728,981 	"/>
 	<rect id="圭亚那" x="1850" y="638" class="st1" width="34" height="75"/>
@@ -228,7 +228,7 @@
 	<text transform="matrix(1 0 0 1 1370 556)" class="st2 st6">夏威夷</text>
 	<text transform="matrix(1 0 0 1 1618 501)" class="st2 st6">墨西哥</text>
 	<text transform="matrix(1 0 0 1 1742 194)" class="st2 st6">加拿大</text>
-	<text transform="matrix(1 0 0 1 78 138)" class="st2 st6">格林兰岛</text>
+	<text transform="matrix(1 0 0 1 78 138)" class="st2 st6">格陵兰岛</text>
 	<text transform="matrix(1 0 0 1 1727 374)" class="st2 st6">美国</text>
 	<text transform="matrix(1 0 0 1 1780 516)" class="st2 st6">古巴</text>
 	<text transform="matrix(1 0 0 1 1793 551)" class="st2 st3">牙买加</text>
