@@ -156,9 +156,9 @@
 	<rect id="卢森堡" x="333" y="300" class="st2" width="26" height="11"/>
 	<rect id="意大利" x="335" y="343" class="st1" width="40" height="73"/>
 	<rect id="瑞士" x="325" y="322" class="st1" width="36" height="21"/>
-	<rect id="阿尔巴尼亚" x="396" y="375" class="st1" width="12" height="26"/>
+	<rect id="阿尔巴尼亚" x="396" y="374" class="st1" width="12" height="27"/>
 	<rect id="黑山" x="391" y="365" class="st2" width="11" height="11"/>
-	<rect id="科索沃" x="402" y="369" class="st2" width="11" height="11"/>
+	<polygon id="塞舌尔" class="st3" points="605,760 615,760 615,769 605,769 	"/>
 	<rect id="新加坡" x="915" y="708" class="st2" width="28" height="13"/>
 	<rect id="缅甸" x="888" y="491" class="st1" width="29" height="119"/>
 	<polygon id="泰国" class="st1" points="914,558 914,670 939,670 939,653.9 933,653.9 933,619.8 952,619.8 952,592.7 933,592.7 
@@ -215,7 +215,8 @@
 	<polygon id="巴林" class="st2" points="590,503 602,503 602,514 590,514 	"/>
 	<polygon id="安道尔" class="st2" points="233,359 245,359 245,370 233,370 	"/>
 	<polygon id="文莱" class="st2" points="993,664 1005,664 1005,675 993,675 	"/>
-	<polygon id="塞舌尔" class="st3" points="605,760 615,760 615,769 605,769 	"/>
+	<polygon id="塞舌尔_00000076570167868659662300000010573729407536686475_" class="st3" points="605,760 615,760 615,769 
+		605,769 	"/>
 	<polygon id="巴勒斯坦" class="st3" points="484,453 494,453 494,462 484,462 	"/>
 </g>
 <g>
@@ -262,9 +263,8 @@
 	<text transform="matrix(1 0 0 1 438 356)" class="st4 st5">罗马尼亚</text>
 	<text transform="matrix(1 0 0 1 436 380)" class="st4 st6">保加利亚</text>
 	<text transform="matrix(1 0 0 1 393 373)" class="st4 st7">黑</text>
-	<text transform="matrix(1 0 0 1 404 377)" class="st4 st7">科</text>
-	<text transform="matrix(1 0 0 1 414 382)" class="st4 st7">北马</text>
-	<text transform="matrix(1 0 0 1 414 390)" class="st4 st7">其顿</text>
+	<text transform="matrix(1 0 0 1 412 382)" class="st4 st7">北马</text>
+	<text transform="matrix(1 0 0 1 412 390)" class="st4 st7">其顿</text>
 	<text transform="matrix(1 0 0 1 473 324)" class="st4 st6">摩尔</text>
 	<text transform="matrix(1 0 0 1 473 334)" class="st4 st6">多瓦</text>
 	<text transform="matrix(1 0 0 1 553 386)" class="st4 st7">亚美</text>
@@ -411,8 +411,8 @@
 	<text transform="matrix(1 0 0 1 356 395)" class="st4 st8">大</text>
 	<text transform="matrix(1 0 0 1 356 409)" class="st4 st8">利</text>
 	<text transform="matrix(1 0 0 1 511 436)" class="st4 st8">叙利亚</text>
-	<text transform="matrix(1 0 0 1 398 389)" class="st4 st7">阿</text>
-	<text transform="matrix(1 0 0 1 398 397)" class="st4 st7">尔</text>
+	<text transform="matrix(1 0 0 1 398 387)" class="st4 st7">阿</text>
+	<text transform="matrix(1 0 0 1 398 395)" class="st4 st7">尔</text>
 	<text transform="matrix(1 0 0 1 415 406)" class="st4 st5">希</text>
 	<text transform="matrix(1 0 0 1 415 418)" class="st4 st5">腊</text>
 	<text transform="matrix(1 0 0 1 396 362)" class="st4 st7">波赫</text>
@@ -422,10 +422,10 @@
 	<text transform="matrix(1 0 0 1 250 268.0314)" class="st4 st7">马</text>
 	<text transform="matrix(1 0 0 1 392 340)" class="st4 st7">斯</text>
 	<text transform="matrix(1 0 0 1 392 351)" class="st4 st7">克罗</text>
-	<text transform="matrix(1 0 0 1 420 346)" class="st4 st7">塞</text>
-	<text transform="matrix(1 0 0 1 420 354)" class="st4 st7">尔</text>
-	<text transform="matrix(1 0 0 1 420 362)" class="st4 st7">维</text>
-	<text transform="matrix(1 0 0 1 420 370)" class="st4 st7">亚</text>
+	<text transform="matrix(1 0 0 1 419 346)" class="st4 st7">塞</text>
+	<text transform="matrix(1 0 0 1 419 354)" class="st4 st7">尔</text>
+	<text transform="matrix(1 0 0 1 419 362)" class="st4 st7">维</text>
+	<text transform="matrix(1 0 0 1 419 370)" class="st4 st7">亚</text>
 	<text transform="matrix(1 0 0 1 406 331)" class="st4 st5">匈牙利</text>
 	<text transform="matrix(1 0 0 1 385 303)" class="st4 st6">捷克</text>
 	<text transform="matrix(1 0 0 1 209 499)" class="st4 st8">阿尔及利亚</text>
