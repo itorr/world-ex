@@ -530,6 +530,9 @@
 	<text transform="matrix(1 0 0 1 1425 1125)" class="st4 st15">想要去</text>
 	<text transform="matrix(1 0 0 1 1425 1157)" class="st4 st15">没去过</text>
 </g>
-<text transform="matrix(1 0 0 1 31 1177)" class="st4 st16">全球制霸·神奇海螺试验场</text>
+
+<a href="https://lab.magiconch.com" target="_blank">
+	<text transform="matrix(1 0 0 1 31 1177)" class="st4 st16">全球制霸·神奇海螺试验场</text>
+</a>
 <text id="score" transform="matrix(1 0 0 1 31 1129)" class="st4 st17">分数</text>
 </svg>
